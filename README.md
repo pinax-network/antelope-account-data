@@ -1,2 +1,1 @@
-# eos-detective-data
-EOS Detective Datasets
+# EOS Detective Datasets
