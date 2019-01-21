@@ -1,13 +1,9 @@
-type Dataset = string[];
+export type Dataset = string[];
 
-interface Datasets {
-    blacklist: Dataset;
-    dapps: Dataset;
-    dex: Dataset;
-    exchange: Dataset;
-    gambling: Dataset;
-    genesis: Dataset;
-    system: Dataset;
-    [key: string]: Dataset
-}
-export default Datasets
+export const blacklist: Dataset;
+export const dapps: Dataset;
+export const dex: Dataset;
+export const exchange: Dataset;
+export const gambling: Dataset;
+export const genesis: Dataset;
+export const system: Dataset;
