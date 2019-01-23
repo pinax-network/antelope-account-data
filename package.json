@@ -9,7 +9,7 @@
     "author": "EOS Nation",
     "license": "MIT",
     "scripts": {
-        "prepare": "node scripts/build.js"
+        "prepare": "tsc && node scripts/build.js"
     },
     "dependencies": {
     },
