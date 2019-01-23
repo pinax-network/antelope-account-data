@@ -11,7 +11,7 @@ const data: Data = {
             dex: [],
         },
         dapps: {
-            account_creation: [],
+            account: [],
             collectibles: [],
             gambling: [],
             games: [],
@@ -19,7 +19,7 @@ const data: Data = {
             namebid: [],
             resources: [],
             social: [],
-            token_distribution: [],
+            candy: [],
         },
         system: {
             blacklist: [],

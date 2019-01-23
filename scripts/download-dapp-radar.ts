@@ -29,26 +29,27 @@ async function getDappRadarDapp(id: number) {
         let category = "dapps";
         let subCategory = item.category;
 
-        // Category Exceptions
-        if (subCategory === "exchanges") {
-            category = "exchanges";
-            subCategory = "dex"
-        }
-
         // Name Exceptions
         if (["eoschat", "everipedia", "karma", "lumeos", "murmur", "nebula" ].indexOf(item.slug) !== -1) {
             subCategory = "social";
         } else if (["chintai"].indexOf(item.slug) !== -1) {
             subCategory = "marketplaces";
-        } else if (["namedex", "short-name-register", "stname", "top-bidder"].indexOf(item.slug) !== -1) {
-            category = "dapps";
+        } else if (["namedex", "short-name-register", "stname", "top-bidder", "eos-name-swaps"].indexOf(item.slug) !== -1) {
             subCategory = "namebid";
         } else if (["bank-of-staked", "cpu-emergency", "cpubaole", "enbank"].indexOf(item.slug) !== -1) {
             subCategory = "resources";
-        } else if (["pra-candybox"].indexOf(item.slug) !== -1) {
-            subCategory = "token-distribution";
+        } else if (["pra-candybox", "more-candy"].indexOf(item.slug) !== -1) {
+            subCategory = "candy";
         } else if (["eos-account-creator", "signupeos", "signupeoseos"].indexOf(item.slug) !== -1) {
-            subCategory = "account-creation";
+            subCategory = "account";
+        }
+
+        // Category Exceptions
+        if (subCategory === "exchanges") {
+            category = "exchanges";
+            subCategory = "dex"
+        } else if (subCategory === "high-risk") {
+            subCategory = "gambling"
         }
 
         // Check if file already exists

@@ -9,6 +9,7 @@
     "author": "EOS Nation",
     "license": "MIT",
     "scripts": {
+        "download": "tsc && node scripts/download-dapp-radar.js",
         "prepare": "tsc && node scripts/build.js"
     },
     "dependencies": {
