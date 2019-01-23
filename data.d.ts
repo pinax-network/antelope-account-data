@@ -37,9 +37,4 @@ export interface EOS {
     system: System;
 }
 
-// Global Data
-export interface Data {
-    eos: EOS
-}
-
-export const eos: Data;
+export const eos: EOS;
