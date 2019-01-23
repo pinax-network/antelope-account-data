@@ -3,15 +3,16 @@ export type Dataset = string[];
 
 // Dapps
 export interface DApps {
-    account_creation: Dataset;
+    "account-creation": Dataset;
     collectibles: Dataset;
     gambling: Dataset;
     games: Dataset;
     marketplaces: Dataset;
     namebid: Dataset;
     resources: Dataset;
+    "high-risk": Dataset;
     social: Dataset;
-    token_distribution: Dataset;
+    "token-distribution": Dataset;
     [category: string]: Dataset;
 }
 

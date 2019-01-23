@@ -26,20 +26,37 @@ async function getDappRadarDapp(id: number) {
         if (item.volumeLastWeek === 0 && Number(item.weeklyUsers) === 0) continue;
 
         // Allowed Categories
-        let target = "";
-        switch (item.category) {
-        case Category.Exchanges:
-            target = path.join(__dirname, "..", "json", "eos", "exchanges", "dex", `${item.slug}.json`);
-            break;
-        default:
-            target = path.join(__dirname, "..", "json", "eos", "dapps", item.category, `${item.slug}.json`);
+        let category = "dapps";
+        let subCategory = item.category;
+
+        // Category Exceptions
+        if (subCategory === "exchanges") {
+            category = "exchanges";
+            subCategory = "dex"
+        }
+
+        // Name Exceptions
+        if (["eoschat", "everipedia", "karma", "lumeos", "murmur", "nebula" ].indexOf(item.slug) !== -1) {
+            subCategory = "social";
+        } else if (["chintai"].indexOf(item.slug) !== -1) {
+            subCategory = "marketplaces";
+        } else if (["namedex", "short-name-register", "stname", "top-bidder"].indexOf(item.slug) !== -1) {
+            category = "dapps";
+            subCategory = "namebid";
+        } else if (["bank-of-staked", "cpu-emergency", "cpubaole", "enbank"].indexOf(item.slug) !== -1) {
+            subCategory = "resources";
+        } else if (["pra-candybox"].indexOf(item.slug) !== -1) {
+            subCategory = "token-distribution";
+        } else if (["eos-account-creator", "signupeos", "signupeoseos"].indexOf(item.slug) !== -1) {
+            subCategory = "account-creation";
         }
 
         // Check if file already exists
+        const target = path.join(__dirname, "..", "json", "eos", category, subCategory, `${item.slug}.json`);
         if (fs.existsSync(target)) continue;
 
         // Download DApp contract details
-        console.log("download:", item.slug)
+        console.log(`${category}::${subCategory} ${item.slug}`)
         const dapp = await getDappRadarDapp(item.id);
         const contracts = dapp.contracts.map(contract => contract.address);
         write.sync(target, contracts);

@@ -20,7 +20,7 @@ export interface List {
     description_render:       string;
     url:                      string;
     deeplink:                 null | string;
-    category:                 Category;
+    category:                 string;
     contractsCount:           number;
     featured:                 number;
     hourlyDauGraphUrl:        string;
