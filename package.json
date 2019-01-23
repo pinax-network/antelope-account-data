@@ -13,6 +13,9 @@
     },
     "dependencies": {},
     "devDependencies": {
+        "axios": "*",
+        "typescript": "*",
+        "ts-node": "*",
         "glob": "*",
         "load-json-file": "*",
         "write-json-file": "*"
