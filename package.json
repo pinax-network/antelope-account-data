@@ -11,8 +11,10 @@
     "scripts": {
         "prepare": "node scripts/build.js"
     },
-    "dependencies": {},
+    "dependencies": {
+    },
     "devDependencies": {
+        "@types/glob": "*",
         "axios": "*",
         "typescript": "*",
         "ts-node": "*",

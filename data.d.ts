@@ -1,7 +1,15 @@
+// Simple dataset which only contain the account name
 export type Dataset = string[];
 
-export interface Dapps {
-    "account-creation": Dataset;
+export interface Data {
+    dapps: DApps;
+    exchanges: Exchanges;
+    system: System;
+}
+
+// Dapps
+export interface DApps {
+    account_creation: Dataset;
     collectibles: Dataset;
     gambling: Dataset;
     games: Dataset;
@@ -9,19 +17,26 @@ export interface Dapps {
     namebid: Dataset;
     resources: Dataset;
     social: Dataset;
-    "token-distribution": Dataset;
+    token_distribution: Dataset;
+    [category: string]: Dataset;
 }
 
+// Exchanges
 export interface Exchanges {
     cex: Dataset;
     dex: Dataset;
+    [category: string]: Dataset;
 }
 
-// Complex Datasets
-export const exchange: Exchanges;
-export const dapps: Dapps;
+// System Datasets
+export interface System {
+    blacklist: Dataset;
+    genesis: Dataset;
+    system: Dataset;
+    [category: string]: Dataset;
+}
 
-// Simple Datasets
-export const blacklist: Dataset;
-export const genesis: Dataset;
-export const system: Dataset;
+// Datasets
+export const exchange: Exchanges;
+export const dapps: DApps;
+export const system: System;

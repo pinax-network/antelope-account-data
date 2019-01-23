@@ -1,24 +1,43 @@
-const path = require("path");
-const load = require("load-json-file");
-const write = require("write-json-file");
-const glob = require("glob");
+import path from "path";
+import glob from "glob";
+import * as load from "load-json-file";
+import * as write from "write-json-file";
+import { Dataset, Data } from "../"
 
-const data = {
-    exchanges: {},
-    dapps: {}
+const data: Data = {
+    exchanges: {
+        cex: [],
+        dex: [],
+    },
+    dapps: {
+        account_creation: [],
+        collectibles: [],
+        gambling: [],
+        games: [],
+        marketplaces: [],
+        namebid: [],
+        resources: [],
+        social: [],
+        token_distribution: [],
+    },
+    system: {
+        blacklist: [],
+        genesis: [],
+        system: [],
+    },
 };
 
-// Simple
+// System
 for (const filepath of glob.sync(path.join(__dirname, "..", "json", "*.json"))) {
     const {name} = path.parse(filepath);
 
-    const dataset = load.sync(filepath);
-    data[name] = dataset;
+    const dataset = load.sync<Dataset>(filepath);
+    data.system[name] = dataset;
 }
 
 // Dapps
 for (const filepath of glob.sync(path.join(__dirname, "..", "json", "dapps", "**", "*.json"))) {
-    const dataset = load.sync(filepath);
+    const dataset = load.sync<Dataset>(filepath);
     const sub = path.parse(filepath.split(path.join("json", "dapps"))[1]);
     const name = path.parse(sub.dir).name;
 
@@ -30,7 +49,7 @@ for (const filepath of glob.sync(path.join(__dirname, "..", "json", "dapps", "**
 
 // Exchanges
 for (const filepath of glob.sync(path.join(__dirname, "..", "json", "exchanges", "**", "*.json"))) {
-    const dataset = load.sync(filepath);
+    const dataset = load.sync<Dataset>(filepath);
     const sub = path.parse(filepath.split(path.join("json", "exchanges"))[1]);
     const name = path.parse(sub.dir).name;
 
