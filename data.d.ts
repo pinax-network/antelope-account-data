@@ -12,14 +12,14 @@ export interface DApps {
     resources: Dataset;
     social: Dataset;
     candy: Dataset;
-    [category: string]: Dataset;
+    [subCategory: string]: Dataset;
 }
 
 // Exchanges
 export interface Exchanges {
     cex: Dataset;
     dex: Dataset;
-    [category: string]: Dataset;
+    [subCategory: string]: Dataset;
 }
 
 // System Datasets
@@ -27,7 +27,7 @@ export interface System {
     blacklist: Dataset;
     genesis: Dataset;
     system: Dataset;
-    [category: string]: Dataset;
+    [subCategory: string]: Dataset;
 }
 
 // EOS Data
@@ -35,6 +35,7 @@ export interface EOS {
     dapps: DApps;
     exchanges: Exchanges;
     system: System;
+    [category: string]: DApps|Exchanges|System;
 }
 
 // Global Data
