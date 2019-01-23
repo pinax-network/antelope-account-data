@@ -5,26 +5,28 @@ import * as write from "write-json-file";
 import { Dataset, Data } from "../"
 
 const data: Data = {
-    exchanges: {
-        cex: [],
-        dex: [],
-    },
-    dapps: {
-        account_creation: [],
-        collectibles: [],
-        gambling: [],
-        games: [],
-        marketplaces: [],
-        namebid: [],
-        resources: [],
-        social: [],
-        token_distribution: [],
-    },
-    system: {
-        blacklist: [],
-        genesis: [],
-        system: [],
-    },
+    eos: {
+        exchanges: {
+            cex: [],
+            dex: [],
+        },
+        dapps: {
+            account_creation: [],
+            collectibles: [],
+            gambling: [],
+            games: [],
+            marketplaces: [],
+            namebid: [],
+            resources: [],
+            social: [],
+            token_distribution: [],
+        },
+        system: {
+            blacklist: [],
+            genesis: [],
+            system: [],
+        },
+    }
 };
 
 // System
@@ -32,7 +34,7 @@ for (const filepath of glob.sync(path.join(__dirname, "..", "json", "system", "*
     const {name} = path.parse(filepath);
 
     const dataset = load.sync<Dataset>(filepath);
-    data.system[name] = dataset;
+    data.eos.system[name] = dataset;
 }
 
 // Dapps
@@ -41,9 +43,9 @@ for (const filepath of glob.sync(path.join(__dirname, "..", "json", "dapps", "**
     const sub = path.parse(filepath.split(path.join("json", "dapps"))[1]);
     const name = path.parse(sub.dir).name;
 
-    if (!data.dapps[name]) data.dapps[name] = [];
+    if (!data.eos.dapps[name]) data.eos.dapps[name] = [];
     for (const row of dataset) {
-        data.dapps[name].push(row);
+        data.eos.dapps[name].push(row);
     }
 }
 
@@ -53,9 +55,9 @@ for (const filepath of glob.sync(path.join(__dirname, "..", "json", "exchanges",
     const sub = path.parse(filepath.split(path.join("json", "exchanges"))[1]);
     const name = path.parse(sub.dir).name;
 
-    if (!data.exchanges[name]) data.exchanges[name] = [];
+    if (!data.eos.exchanges[name]) data.eos.exchanges[name] = [];
     for (const row of dataset) {
-        data.exchanges[name].push(row);
+        data.eos.exchanges[name].push(row);
     }
 }
 

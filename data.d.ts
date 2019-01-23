@@ -1,12 +1,6 @@
 // Simple dataset which only contain the account name
 export type Dataset = string[];
 
-export interface Data {
-    dapps: DApps;
-    exchanges: Exchanges;
-    system: System;
-}
-
 // Dapps
 export interface DApps {
     account_creation: Dataset;
@@ -36,7 +30,16 @@ export interface System {
     [category: string]: Dataset;
 }
 
-// Datasets
-export const exchange: Exchanges;
-export const dapps: DApps;
-export const system: System;
+// EOS Data
+export interface EOS {
+    dapps: DApps;
+    exchanges: Exchanges;
+    system: System;
+}
+
+// Global Data
+export interface Data {
+    eos: EOS
+}
+
+export const eos: Data;
