@@ -30,7 +30,7 @@ const data: Data = {
 };
 
 // System
-for (const filepath of glob.sync(path.join(__dirname, "..", "json", "system", "*.json"))) {
+for (const filepath of glob.sync(path.join(__dirname, "..", "json", "eos", "system", "*.json"))) {
     const {name} = path.parse(filepath);
 
     const dataset = load.sync<Dataset>(filepath);
@@ -38,9 +38,9 @@ for (const filepath of glob.sync(path.join(__dirname, "..", "json", "system", "*
 }
 
 // Dapps
-for (const filepath of glob.sync(path.join(__dirname, "..", "json", "dapps", "**", "*.json"))) {
+for (const filepath of glob.sync(path.join(__dirname, "..", "json", "eos", "dapps", "**", "*.json"))) {
     const dataset = load.sync<Dataset>(filepath);
-    const sub = path.parse(filepath.split(path.join("json", "dapps"))[1]);
+    const sub = path.parse(filepath.split(path.join("json", "eos", "dapps"))[1]);
     const name = path.parse(sub.dir).name;
 
     if (!data.eos.dapps[name]) data.eos.dapps[name] = [];
@@ -50,9 +50,9 @@ for (const filepath of glob.sync(path.join(__dirname, "..", "json", "dapps", "**
 }
 
 // Exchanges
-for (const filepath of glob.sync(path.join(__dirname, "..", "json", "exchanges", "**", "*.json"))) {
+for (const filepath of glob.sync(path.join(__dirname, "..", "json", "eos", "exchanges", "**", "*.json"))) {
     const dataset = load.sync<Dataset>(filepath);
-    const sub = path.parse(filepath.split(path.join("json", "exchanges"))[1]);
+    const sub = path.parse(filepath.split(path.join("json", "eos", "exchanges"))[1]);
     const name = path.parse(sub.dir).name;
 
     if (!data.eos.exchanges[name]) data.eos.exchanges[name] = [];
