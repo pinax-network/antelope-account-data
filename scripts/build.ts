@@ -28,7 +28,7 @@ const data: Data = {
 };
 
 // System
-for (const filepath of glob.sync(path.join(__dirname, "..", "json", "*.json"))) {
+for (const filepath of glob.sync(path.join(__dirname, "..", "json", "system", "*.json"))) {
     const {name} = path.parse(filepath);
 
     const dataset = load.sync<Dataset>(filepath);

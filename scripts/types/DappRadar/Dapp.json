@@ -1,0 +1,105 @@
+{
+  "success": true,
+  "error": null,
+  "data": {
+    "info": {
+      "id": 653,
+      "balance": 33340.43,
+      "author": "",
+      "disabled": "0",
+      "title": "EOSBet",
+      "description": "EOSBet is building a commercial-scale casino and innovative gaming platform on the EOS.IO blockchain. We offer a fully feeless, trustless, and permissionless gaming architecture, allowing users to place bets in EOS at zero cost and have absolute certainty all games are fair. We've recently launched Dice, our first dApp, with many more to come. 100% of all game profit is distributed to holders of our BET token.",
+      "description_render": "EOSBet is building a commercial-scale casino and innovative gaming platform on the EOS.IO blockchain. We offer a fully feeless, trustless, and permissionless gaming architecture, allowing users to place bets in EOS at zero cost and have absolute certainty all games are fair. We've recently launched Dice, our first dApp, with many more to come. 100% of all game profit is distributed to holders of our BET token.",
+      "url": "https://eosbet.io/",
+      "deepLink": "https://eosbet.io/?ref=dappradarcom",
+      "category": "gambling",
+      "featured": 0,
+      "hourlyDauGraphUrl": "https://dappradar-activity.s3.amazonaws.com/63b8f5f844aed14ca18b8fae23bdec4a.png",
+      "volumeLastDay": 176095.42,
+      "volumeLastWeek": 1423104.64,
+      "volume24hChange": "-53.50",
+      "txLastDay": 97368,
+      "txLastWeek": 601836,
+      "dauLastDay": 3061,
+      "dauLastWeek": "0",
+      "weeklyUsers": "4002",
+      "dau24hChange": "-3.65",
+      "logo": "https://s3.amazonaws.com/dappradar-dapp-assets/logos/2019/01/04/5c2f23a966271eosbet_logo.jpg",
+      "icon": "https://s3.amazonaws.com/dappradar-dapp-assets/logos/2019/01/04/5c2f23b48b08feosbet_icon.png",
+      "video": "https://www.youtube.com/watch?v=_bcBJ0CgvI8",
+      "updatedAt": "2019-01-23 02:26:20",
+      "createdAt": "2018-08-26 17:27:00",
+      "nsfw": 0,
+      "protocols": [
+        "eos"
+      ],
+      "images": [
+        {
+          "title": "",
+          "url": "https://s3.us-east-1.amazonaws.com/dappradar-dapp-assets/logos/2019/01/04/5c2f26ad1dc25eosbet_screen1.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://s3.us-east-1.amazonaws.com/dappradar-dapp-assets/logos/2019/01/04/5c2f26af2c0f9eosbet_screen2.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://s3.us-east-1.amazonaws.com/dappradar-dapp-assets/logos/2019/01/04/5c2f26b0e3d38eosbet_screen3.jpg"
+        }
+      ],
+      "volumeLastDayInUSD": 436745,
+      "volumeLastWeekInUSD": 3529525,
+      "volumeLastDayLabel": "176,095",
+      "volumeLastWeekLabel": "1,423,105",
+      "volumeLastDayInUSDLabel": "436,745",
+      "volumeLastWeekInUSDLabel": "3,529,525",
+      "balanceLabel": "33,340",
+      "txLastDayLabel": "97,368",
+      "txLastWeekLabel": "601,836",
+      "dauLastDayLabel": "3,061",
+      "slug": "eosbet",
+      "isNew": false,
+      "changes": {
+        "dau": {
+          "status": "negative",
+          "label": "-3.65%"
+        },
+        "vol": {
+          "status": "negative",
+          "label": "-53.50%"
+        }
+      },
+      "rankings": {
+        "overall": 7,
+        "category": 3
+      }
+    },
+    "links": null,
+    "contracts": [
+      {
+        "title": "",
+        "address": "eosbetdice11"
+      },
+      {
+        "title": "",
+        "address": "eosbaccarat1"
+      },
+      {
+        "title": "",
+        "address": "eosbetcrash1"
+      },
+      {
+        "title": "",
+        "address": "eosbetbank11"
+      },
+      {
+        "title": "",
+        "address": "ezeosaccount"
+      },
+      {
+        "title": "",
+        "address": "betdividends"
+      }
+    ]
+  }
+}
