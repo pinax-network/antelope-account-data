@@ -1,4 +1,6 @@
 import axios from 'axios';
+import * as fs from "fs";
+import * as path from "path";
 import * as write from "write-json-file";
 import { Dapp } from "./types/DappRadar/Dapp";
 import { TheRest, Protocol, Category } from "./types/DappRadar/TheRest";
@@ -23,13 +25,23 @@ async function getDappRadarDapp(id: number) {
         // Must have volume or EOS transactions
         if (item.volumeLastWeek === 0 && Number(item.weeklyUsers) === 0) continue;
 
-        // TEMP - REMOVE LATER
-        if (item.category !== Category.Gambling) continue;
-
-        const dapp = await getDappRadarDapp(item.id);
-
-        for (const contract of dapp.contracts) {
-            console.log(contract.address);
+        // Allowed Categories
+        let target = "";
+        switch (item.category) {
+        case Category.Exchanges:
+            target = path.join(__dirname, "..", "json", "eos", "exchanges", "dex", `${item.slug}.json`);
+            break;
+        default:
+            target = path.join(__dirname, "..", "json", "eos", "dapps", item.category, `${item.slug}.json`);
         }
+
+        // Check if file already exists
+        if (fs.existsSync(target)) continue;
+
+        // Download DApp contract details
+        console.log("download:", item.slug)
+        const dapp = await getDappRadarDapp(item.id);
+        const contracts = dapp.contracts.map(contract => contract.address);
+        write.sync(target, contracts);
     }
 })()
