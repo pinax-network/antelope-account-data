@@ -60,7 +60,21 @@ async function download(pagination: number) {
         console.log(`${category}::${subCategory} ${item.slug}`)
         const dapp = await getDappRadarDapp(item.id);
 
-        const contracts = (dapp.contracts) ? dapp.contracts.map(contract => contract.address) : [];
+        let contracts = (dapp.contracts) ? dapp.contracts.map(contract => contract.address) : [];
+
+        // Dapp Contract exceptions
+        if (item.slug === "eos-lelego") {
+            contracts = [
+                "llgcontract1",
+                "llgfundpoool",
+                "llgcontract1",
+                "llgcontract2",
+                "llgcontract3",
+                "llgcontract4",
+                "llgcontract5",
+                "llgcontracta"
+            ]
+        }
         write.sync(target, contracts);
     }
 }
