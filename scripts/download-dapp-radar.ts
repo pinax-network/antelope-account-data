@@ -5,8 +5,8 @@ import * as write from "write-json-file";
 import { Dapp } from "./types/DappRadar/Dapp";
 import { TheRest, Protocol, Category } from "./types/DappRadar/TheRest";
 
-async function getDappRadarList() {
-    const request = await axios.get<TheRest>("https://dappradar.com/api/xchain/dapps/theRest");
+async function getDappRadarList(pagination: number) {
+    const request = await axios.get<TheRest>(`https://dappradar.com/api/xchain/dapps/list/${pagination}`);
     return request.data.data.list;
 }
 
@@ -15,8 +15,8 @@ async function getDappRadarDapp(id: number) {
     return request.data.data;
 }
 
-(async () => {
-    const list = await getDappRadarList();
+async function download(pagination: number) {
+    const list = await getDappRadarList(pagination);
 
     for (const item of list) {
         // Must be EOS
@@ -63,4 +63,19 @@ async function getDappRadarDapp(id: number) {
         const contracts = (dapp.contracts) ? dapp.contracts.map(contract => contract.address) : [];
         write.sync(target, contracts);
     }
-})()
+}
+
+// Main
+(async () => {
+    let pagination = 0;
+    while (true) {
+        try {
+            console.log("pagination", pagination);
+            await download(pagination);
+        } catch (e) {
+            console.log("finished");
+            break;
+        }
+        pagination ++;
+    }
+})();
