@@ -24,7 +24,7 @@ const data: Data = {
         system: {
             blacklist: [],
             genesis: [],
-            system: [],
+            eosio: [],
         },
     }
 };

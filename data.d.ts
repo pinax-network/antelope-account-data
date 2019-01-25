@@ -26,7 +26,7 @@ export interface Exchanges {
 export interface System {
     blacklist: Dataset;
     genesis: Dataset;
-    system: Dataset;
+    eosio: Dataset;
     [subCategory: string]: Dataset;
 }
 
