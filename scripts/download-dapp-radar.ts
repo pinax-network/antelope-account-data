@@ -33,7 +33,7 @@ async function download(pagination: number) {
         if (["decentwitter", "eoschat", "everipedia", "karma", "lumeos", "murmur", "nebula"].indexOf(item.slug) !== -1) {
             subCategory = "social";
         } else if (["chintai"].indexOf(item.slug) !== -1) {
-            subCategory = "marketplaces";
+            subCategory = "resources";
         } else if (["namedex", "short-name-register", "stname", "top-bidder", "eos-name-swaps"].indexOf(item.slug) !== -1) {
             subCategory = "namebid";
         } else if (["ibank", "bank-of-staked", "cpu-emergency", "cpubaole", "enbank"].indexOf(item.slug) !== -1) {
@@ -50,6 +50,8 @@ async function download(pagination: number) {
             subCategory = "dex"
         } else if (subCategory === "high-risk") {
             subCategory = "gambling"
+        } else if (subCategory === "collectibles" || subCategory === "marketplaces") {
+            subCategory = "other"
         }
 
         // Check if file already exists

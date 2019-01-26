@@ -4,10 +4,8 @@ export type Dataset = string[];
 // Dapps
 export interface DApps {
     account: Dataset;
-    collectibles: Dataset;
     gambling: Dataset;
     games: Dataset;
-    marketplaces: Dataset;
     namebid: Dataset;
     resources: Dataset;
     social: Dataset;
