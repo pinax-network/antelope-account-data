@@ -5,6 +5,10 @@
     "description": "EOS Detective Datasets",
     "main": "data.json",
     "types": "data.d.ts",
+    "files": [
+        "data.json",
+        "data.d.ts"
+    ],
     "repository": "git@github.com:eosnationftw/eos-detective-data.git",
     "author": "EOS Nation",
     "license": "MIT",
