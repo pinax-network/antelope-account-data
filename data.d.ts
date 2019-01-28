@@ -23,8 +23,12 @@ export interface Exchanges {
 // System Datasets
 export interface System {
     blacklist: Dataset;
-    genesis: Dataset;
+    bp: Dataset;
     eosio: Dataset;
+    genesis: Dataset;
+    names: Dataset;
+    ram: Dataset;
+    stake: Dataset;
     [subCategory: string]: Dataset;
 }
 
@@ -33,7 +37,7 @@ export interface EOS {
     dapps: DApps;
     exchanges: Exchanges;
     system: System;
-    [category: string]: DApps|Exchanges|System;
+    [category: string]: DApps | Exchanges | System;
 }
 
 // Global Data

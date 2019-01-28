@@ -23,8 +23,12 @@ const data: Data = {
         },
         system: {
             blacklist: [],
-            genesis: [],
+            bp: [],
             eosio: [],
+            genesis: [],
+            names: [],
+            ram: [],
+            stake: [],
         },
     }
 };

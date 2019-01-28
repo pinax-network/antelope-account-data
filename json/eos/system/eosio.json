@@ -1,11 +1,5 @@
 [
     "eosio",
-    "eosio.ram",
-    "eosio.ramfee",
-    "eosio.stake",
-    "eosio.bpay",
-    "eosio.vpay",
-    "eosio.names",
     "eosio.msig",
     "eosio.token",
     "eosio.unregd",
