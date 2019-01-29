@@ -23,7 +23,8 @@ export interface Exchanges {
 // System Datasets
 export interface System {
     blacklist: Dataset;
-    bp: Dataset;
+    "block-producer": Dataset;
+    "bp-pay": Dataset;
     eosio: Dataset;
     genesis: Dataset;
     names: Dataset;

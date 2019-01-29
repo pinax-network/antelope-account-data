@@ -23,7 +23,8 @@ const data: Data = {
         },
         system: {
             blacklist: [],
-            bp: [],
+            "block-producer": [],
+            "bp-pay": [],
             eosio: [],
             genesis: [],
             names: [],
