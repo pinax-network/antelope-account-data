@@ -41,9 +41,10 @@ export interface EOS {
     [category: string]: DApps | Exchanges | System;
 }
 
-// Global Data
-export interface Data {
+// Blockchain
+export interface Blockchains {
     eos: EOS;
+    [blockchain: string]: any
 }
 
 export const eos: EOS;

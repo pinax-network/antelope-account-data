@@ -2,9 +2,9 @@ import path from "path";
 import glob from "glob";
 import * as load from "load-json-file";
 import * as write from "write-json-file";
-import { Dataset, Data } from "../"
+import { Dataset, Blockchains } from "../"
 
-const data: Data = {
+const data: Blockchains = {
     eos: {
         exchanges: {
             cex: [],
