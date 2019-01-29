@@ -2,35 +2,35 @@
 export type Dataset = string[];
 
 // Dapps
-export interface DApps {
-    account: Dataset;
-    gambling: Dataset;
-    games: Dataset;
-    namebid: Dataset;
-    resources: Dataset;
-    social: Dataset;
-    candy: Dataset;
-    [subCategory: string]: Dataset;
+export interface DApps<T = Dataset> {
+    account: T;
+    gambling: T;
+    games: T;
+    namebid: T;
+    resources: T;
+    social: T;
+    candy: T;
+    [subCategory: string]: T;
 }
 
 // Exchanges
-export interface Exchanges {
-    cex: Dataset;
-    dex: Dataset;
-    [subCategory: string]: Dataset;
+export interface Exchanges<T = Dataset> {
+    cex: T;
+    dex: T;
+    [subCategory: string]: T;
 }
 
 // System Datasets
-export interface System {
-    blacklist: Dataset;
-    "block-producer": Dataset;
-    "bp-pay": Dataset;
-    eosio: Dataset;
-    genesis: Dataset;
-    names: Dataset;
-    ram: Dataset;
-    stake: Dataset;
-    [subCategory: string]: Dataset;
+export interface System<T = Dataset> {
+    blacklist: T;
+    "block-producer": T;
+    "bp-pay": T;
+    eosio: T;
+    genesis: T;
+    names: T;
+    ram: T;
+    stake: T;
+    [subCategory: string]: T;
 }
 
 // EOS Data
