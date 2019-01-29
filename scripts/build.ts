@@ -23,7 +23,7 @@ const data: Blockchains = {
         },
         system: {
             blacklist: [],
-            blockproducer: [],
+            ibc: [],
             bpay: [],
             vpay: [],
             eosio: [],
