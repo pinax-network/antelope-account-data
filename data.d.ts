@@ -23,8 +23,9 @@ export interface Exchanges<T = Dataset> {
 // System Datasets
 export interface System<T = Dataset> {
     blacklist: T;
-    "block-producer": T;
-    "bp-pay": T;
+    blockproducer: T;
+    bpay: T;
+    vpay: T;
     eosio: T;
     genesis: T;
     names: T;
