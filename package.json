@@ -19,7 +19,6 @@
     "dependencies": {
     },
     "devDependencies": {
-        "eos-tokens": "git+ssh://git@github.com/EOS-Nation/eos-tokens.git",
         "@types/glob": "*",
         "axios": "*",
         "glob": "*",
