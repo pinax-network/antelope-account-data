@@ -13,14 +13,13 @@
     "author": "EOS Nation",
     "license": "MIT",
     "scripts": {
-        "download": "tsc && node scripts/download-dapp-radar.js",
-        "prepare": "tsc && node scripts/prepare.js"
-    },
-    "dependencies": {
+        "download": "ts-node scripts/download-dapp-radar.ts",
+        "prepare": "ts-node scripts/prepare.ts"
     },
     "devDependencies": {
         "@types/glob": "*",
         "axios": "*",
+        "eos-tokens": "git+ssh://git@github.com/EOS-Nation/eos-tokens.git",
         "glob": "*",
         "load-json-file": "*",
         "ts-node": "*",
