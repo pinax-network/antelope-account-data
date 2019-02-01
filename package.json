@@ -14,17 +14,18 @@
     "license": "MIT",
     "scripts": {
         "download": "tsc && node scripts/download-dapp-radar.js",
-        "prepare": "tsc && node scripts/build.js"
+        "prepare": "tsc && node scripts/prepare.js"
     },
     "dependencies": {
     },
     "devDependencies": {
+        "eos-tokens": "git+ssh://git@github.com/EOS-Nation/eos-tokens.git",
         "@types/glob": "*",
         "axios": "*",
-        "typescript": "*",
-        "ts-node": "*",
         "glob": "*",
         "load-json-file": "*",
+        "ts-node": "*",
+        "typescript": "*",
         "write-json-file": "*"
     }
 }

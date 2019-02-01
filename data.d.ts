@@ -1,6 +1,35 @@
 // Simple dataset which only contain the account name
 export type Dataset = string[];
 
+export interface Token {
+    name:        string;
+    account:     string;
+    symbol:      string;
+    precision:   number;
+    logo:        string;
+    website:     string;
+    desc:        Description | string;
+    links:       Links;
+    whitepaper:  string;
+}
+
+export interface Description {
+    en:  string;
+    [language: string]: string;
+}
+
+export interface Links {
+    twitter:  string;
+    telegram: string;
+    medium:   string;
+    facebook: string;
+    reddit:   string;
+    github:   string;
+    steemit:  string;
+    wechat:   string;
+    [link: string]: string;
+}
+
 // Dapps
 export interface DApps<T = Dataset> {
     account: T;
@@ -39,7 +68,8 @@ export interface EOS {
     dapps: DApps;
     exchanges: Exchanges;
     system: System;
-    [category: string]: DApps | Exchanges | System;
+    tokens: Token[];
+    [category: string]: DApps | Exchanges | System | Token[];
 }
 
 // Blockchain

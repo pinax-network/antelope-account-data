@@ -1,0 +1,12 @@
+{
+	"name": "",
+	"account": "eoscubetoken",
+	"symbol": "CUBE",
+	"issuer": "eoscubeadmin",
+	"precision": 4,
+	"desc": "An EOS-based gambling game.",
+	"website": "http://eoscube.site",
+	"logo": "https://raw.githubusercontent.com/BlockABC/eos-tokens/master/tokens/eoscubetoken/CUBE.png",
+	"links": {},
+	"whitepaper": ""
+}
