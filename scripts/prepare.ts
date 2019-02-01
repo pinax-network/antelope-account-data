@@ -69,7 +69,7 @@ for (const filepath of glob.sync(path.join(__dirname, "..", "json", "eos", "exch
 }
 
 // EOS Tokens
-for (const filepath of glob.sync(path.join(__dirname, "..", "json", "eos", "tokens", "*.json"))) {
+for (const filepath of glob.sync(path.join(__dirname, "..", "json", "eos", "tokens", "**", "*.json"))) {
     const token = load.sync<Token>(filepath);
     data.eos.tokens.push(token);
 }

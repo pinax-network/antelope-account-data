@@ -1,0 +1,12 @@
+{
+	"name": "",
+	"account": "horustokenio",
+	"symbol": "ECASH",
+	"issuer": "horustokenio",
+	"precision": 4,
+	"desc": "ECASH can be obtained through pledge HORUS.",
+	"website": "https://horuspay.io",
+	"logo": "https://raw.githubusercontent.com/BlockABC/eos-tokens/master/tokens/horustokenio/ECASH.png",
+	"links": {},
+	"whitepaper": ""
+}
