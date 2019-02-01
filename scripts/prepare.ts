@@ -32,7 +32,7 @@ const data: Blockchains = {
             ram: [],
             stake: [],
         },
-        tokens: [],
+        // tokens: [],
     }
 };
 
@@ -69,9 +69,9 @@ for (const filepath of glob.sync(path.join(__dirname, "..", "json", "eos", "exch
 }
 
 // EOS Tokens
-for (const filepath of glob.sync(path.join(__dirname, "..", "json", "eos", "tokens", "**", "*.json"))) {
-    const token = load.sync<Token>(filepath);
-    data.eos.tokens.push(token);
-}
+// for (const filepath of glob.sync(path.join(__dirname, "..", "json", "eos", "tokens", "**", "*.json"))) {
+//     const token = load.sync<Token>(filepath);
+//     data.eos.tokens.push(token);
+// }
 
 write.sync(path.join(__dirname, "..", "data.json"), data);

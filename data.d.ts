@@ -63,13 +63,17 @@ export interface System<T = Dataset> {
     [subCategory: string]: T;
 }
 
+export interface BaseCategory<T = Dataset> {
+    [subCategory: string]: T
+}
+
 // EOS Data
 export interface EOS {
     dapps: DApps;
     exchanges: Exchanges;
     system: System;
-    tokens: Token[];
-    [category: string]: DApps | Exchanges | System | Token[];
+    // tokens: Token[];
+    [category: string]: BaseCategory
 }
 
 // Blockchain
