@@ -14,7 +14,7 @@
     "license": "MIT",
     "scripts": {
         "download": "ts-node scripts/download-dapp-radar.ts",
-        "prepare": "ts-node scripts/prepare.ts"
+        "build": "ts-node scripts/build.ts"
     },
     "devDependencies": {
         "@types/glob": "*",

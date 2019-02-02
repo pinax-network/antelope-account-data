@@ -1,5 +1,5 @@
-# Build data
-data.json
+# lock files
+yarn.lock
 
 # Typescript
 *.js
