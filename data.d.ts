@@ -86,7 +86,9 @@ export interface BOS {
 // Blockchain
 export interface Blockchains {
     eos: EOS;
+    bos: BOS;
     [blockchain: string]: any
 }
 
 export const eos: EOS;
+export const bos: BOS;
