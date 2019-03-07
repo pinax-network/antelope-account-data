@@ -10,7 +10,7 @@ export interface Data {
 }
 
 export interface List {
-    protocols:                Protocol[];
+    protocols:                string[];
     id:                       number;
     balance:                  number;
     author:                   string;
@@ -79,12 +79,6 @@ export enum Status {
     Negative = "negative",
     Neutral = "neutral",
     Positive = "positive",
-}
-
-export enum Protocol {
-    EOS = "eos",
-    Eth = "eth",
-    TRON = "tron",
 }
 
 export interface Rankings {

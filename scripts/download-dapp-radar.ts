@@ -3,24 +3,26 @@ import * as fs from "fs";
 import * as path from "path";
 import * as write from "write-json-file";
 import { Dapp } from "./types/DappRadar/Dapp";
-import { TheRest, Protocol, Category } from "./types/DappRadar/TheRest";
+import { TheRest, Category } from "./types/DappRadar/TheRest";
 
 async function getDappRadarList(pagination: number) {
-    const request = await axios.get<TheRest>(`https://dappradar.com/api/xchain/dapps/list/${pagination}`);
-    return request.data.data.list;
-}
-
-async function getDappRadarDapp(id: number) {
-    const request = await axios.get<Dapp>(`https://dappradar.com/api/eos/dapp/${id}`);
+    const url = `https://dappradar.com/api/eos/dapps/list/${pagination}`
+    const request = await axios.get<TheRest>(url);
     return request.data.data;
 }
 
-async function download(pagination: number) {
-    const list = await getDappRadarList(pagination);
+async function getDappRadarDapp(id: number) {
+    const url = `https://dappradar.com/api/eos/dapp/${id}`
+    const request = await axios.get<Dapp>(url);
+    return request.data.data;
+}
 
-    for (const item of list) {
+async function download(pagination: number): Promise<number> {
+    const response = await getDappRadarList(pagination);
+
+    for (const item of response.list) {
         // Must be EOS
-        if (item.protocols.indexOf(Protocol.EOS) === -1) continue;
+        if (item.protocols.indexOf("eos") === -1) continue;
 
         // Must have volume or EOS transactions
         // if (item.volumeLastWeek === 0 && Number(item.weeklyUsers) === 0) continue;
@@ -79,19 +81,17 @@ async function download(pagination: number) {
         }
         write.sync(target, contracts);
     }
+    return response.pageCount;
 }
 
 // Main
 (async () => {
-    let pagination = 0;
-    while (true) {
-        try {
-            console.log("pagination", pagination);
-            await download(pagination);
-        } catch (e) {
-            console.log("finished");
-            break;
-        }
-        pagination ++;
+    let count = 0;
+    let pagination = Infinity;
+
+    while (count < pagination) {
+        pagination = await download(count);
+        count ++;
+        console.log({count, pagination})
     }
-})();
+})().catch(e => console.log(e));
