@@ -76,6 +76,13 @@ export interface EOS {
     [category: string]: BaseCategory
 }
 
+// BOS Data
+export interface BOS {
+    exchanges: Exchanges;
+    system: System;
+    [category: string]: BaseCategory
+}
+
 // Blockchain
 export interface Blockchains {
     eos: EOS;
