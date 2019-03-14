@@ -55,7 +55,6 @@ export interface System<T = Dataset> {
     bpay: T;
     vpay: T;
     eosio: T;
-    genesis: T;
     names: T;
     ram: T;
     stake: T;
