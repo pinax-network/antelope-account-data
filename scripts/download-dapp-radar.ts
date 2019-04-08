@@ -30,19 +30,23 @@ async function download(pagination: number): Promise<number> {
         // Allowed Categories
         let category = "dapps";
         let subCategory = item.category;
+        const name = item.slug;
+
+        // If name is blank skip
+        if (!name) continue;
 
         // Name Exceptions
-        if (["decentwitter", "eoschat", "everipedia", "karma", "lumeos", "murmur", "nebula"].indexOf(item.slug) !== -1) {
+        if (["decentwitter", "eoschat", "everipedia", "karma", "lumeos", "murmur", "nebula"].indexOf(name) !== -1) {
             subCategory = "social";
-        } else if (["chintai"].indexOf(item.slug) !== -1) {
+        } else if (["chintai"].indexOf(name) !== -1) {
             subCategory = "resources";
-        } else if (["namedex", "short-name-register", "stname", "top-bidder", "eos-name-swaps"].indexOf(item.slug) !== -1) {
+        } else if (["namedex", "short-name-register", "stname", "top-bidder", "eos-name-swaps"].indexOf(name) !== -1) {
             subCategory = "namebid";
-        } else if (["ibank", "bank-of-staked", "cpu-emergency", "cpubaole", "enbank"].indexOf(item.slug) !== -1) {
+        } else if (["ibank", "bank-of-staked", "cpu-emergency", "cpubaole", "enbank"].indexOf(name) !== -1) {
             subCategory = "resources";
-        } else if (["pra-candybox", "more-candy"].indexOf(item.slug) !== -1) {
+        } else if (["pra-candybox", "more-candy"].indexOf(name) !== -1) {
             subCategory = "candy";
-        } else if (["eos-account-registration-assistant", "eos-account-creator", "signupeos", "signupeoseos"].indexOf(item.slug) !== -1) {
+        } else if (["eos-account-registration-assistant", "eos-account-creator", "signupeos", "signupeoseos"].indexOf(name) !== -1) {
             subCategory = "account";
         }
 
@@ -57,17 +61,17 @@ async function download(pagination: number): Promise<number> {
         }
 
         // Check if file already exists
-        const target = path.join(__dirname, "..", "json", "eos", category, subCategory, `${item.slug}.json`);
+        const target = path.join(__dirname, "..", "json", "eos", category, subCategory, `${name}.json`);
         if (fs.existsSync(target)) continue;
 
         // Download DApp contract details
-        console.log(`${category}::${subCategory} ${item.slug}`)
+        console.log(`${category}::${subCategory} ${name}`)
         const dapp = await getDappRadarDapp(item.id);
 
         let contracts = (dapp.contracts) ? dapp.contracts.map(contract => contract.address) : [];
 
         // Dapp Contract exceptions
-        if (item.slug === "eos-lelego") {
+        if (name === "eos-lelego") {
             contracts = [
                 "llgcontract1",
                 "llgfundpoool",
