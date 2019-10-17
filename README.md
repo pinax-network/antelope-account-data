@@ -1,13 +1,9 @@
 # EOS Detective Datasets
 
-## JSON
-
-https://raw.githubusercontent.com/EOS-Nation/eos-detective-data/master/data.json
-
 ## Install
 
 ```bash
-npm install eos-detective-data
+$ npm install git+ssh://git@github.com/eosnationftw/eos-detective-data.git
 ```
 
 ## Example
