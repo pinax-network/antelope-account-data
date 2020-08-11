@@ -1,0 +1,10 @@
+[
+    "eosio",
+    "eosio.msig",
+    "eosio.token",
+    "eosio.unregd",
+    "eosio.null",
+    "eosio.regram",
+    "eosio.prods",
+    "eosio.forum"
+]
