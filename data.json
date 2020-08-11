@@ -965,5 +965,40 @@
 				"eosio.stake"
 			]
 		}
+	},
+	"wax": {
+		"system": {
+			"blacklist": [],
+			"ibc": [
+				"bosibc.io"
+			],
+			"bpay": [
+				"eosio.bpay"
+			],
+			"vpay": [
+				"eosio.vpay"
+			],
+			"eosio": [
+				"eosio",
+				"eosio.msig",
+				"eosio.token",
+				"eosio.unregd",
+				"eosio.null",
+				"eosio.regram",
+				"eosio.prods",
+				"eosio.forum"
+			],
+			"genesis": [],
+			"names": [
+				"eosio.names"
+			],
+			"ram": [
+				"eosio.ram",
+				"eosio.ramfee"
+			],
+			"stake": [
+				"eosio.stake"
+			]
+		}
 	}
 }
