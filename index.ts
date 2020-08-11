@@ -48,11 +48,14 @@ const data: Blockchains = {
     bos: {
         exchanges: defaultExchanges(),
         system: defaultSystem(),
+    },
+	wax: {
+        system: defaultSystem(),
     }
 };
 
 // System Contracts
-for (const chain of ["eos", "bos"]) {
+for (const chain of ["eos", "bos", "wax"]) {
     console.log(`processing [${chain}::system]`)
     for (const filepath of glob.sync(path.join(__dirname, "json", chain, "system", "*.json"))) {
         const {name} = path.parse(filepath);

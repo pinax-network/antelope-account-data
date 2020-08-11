@@ -82,12 +82,20 @@ export interface BOS {
     [category: string]: BaseCategory
 }
 
+// WAX Data
+export interface WAX {
+    system: System;
+    [category: string]: BaseCategory
+}
+
 // Blockchain
 export interface Blockchains {
     eos: EOS;
     bos: BOS;
+    wax: WAX;
     [blockchain: string]: any
 }
 
 export const eos: EOS;
 export const bos: BOS;
+export const wax: WAX;
