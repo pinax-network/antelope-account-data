@@ -6,5 +6,7 @@
     "eosio.null",
     "eosio.regram",
     "eosio.prods",
-    "eosio.forum"
+    "eosio.forum",
+    "eosio.rex",
+    "eosio.grants"
 ]
