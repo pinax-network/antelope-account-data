@@ -83,9 +83,11 @@
 			],
 			"dex": [
 				"eostokensdex",
+				"alcorammswap",
 				"thisisbancor",
 				"swap.defi",
 				"lpr.defi",
+				"usnpool.defi",
 				"defisswapcnt",
 				"dolphinsswap",
 				"ecrveosdtpol",
@@ -739,6 +741,7 @@
 				"wizboxsender",
 				"wizardfights",
 				"wizardrandom",
+				"womplaypayme",
 				"xpetiocore11",
 				"petbombcorea",
 				"xpetxauction",
@@ -802,6 +805,7 @@
 				"lend.defi",
 				"danchorsmart",
 				"eosdtcntract",
+				"eosdtliqdatr",
 				"eosmicroloan",
 				"lend.pizza",
 				"vigorlending"
