@@ -8,5 +8,6 @@
     "eosio.prods",
     "eosio.forum",
     "eosio.rex",
-    "eosio.grants"
+    "eosio.grants",
+    "eosio.saving"
 ]

@@ -2,5 +2,8 @@
 	"swap.defi",
 	"lpr.defi",
 	"usnpool.defi",
-	"lppool.defi"
+	"lppool.defi",
+	"danchorsmart",
+	"lend.defi",
+	"reserve.defi"
 ]

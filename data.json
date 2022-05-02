@@ -36,11 +36,43 @@
 				},
 				{
 					"group": "binance",
+					"account": "binancecold2"
+				},
+				{
+					"group": "binance",
 					"account": "heztanrqgene"
+				},
+				{
+					"group": "binance",
+					"account": "useosofbinan"
+				},
+				{
+					"group": "binance",
+					"account": "useosbinance"
+				},
+				{
+					"group": "bitbay",
+					"account": "bitbayneteos"
 				},
 				{
 					"group": "bitfinex",
 					"account": "bitfinexdep1"
+				},
+				{
+					"group": "bitfinex",
+					"account": "bitfinexcw22"
+				},
+				{
+					"group": "bitfinex",
+					"account": "bitfinexcw55"
+				},
+				{
+					"group": "bitfinex",
+					"account": "bitfinexeos1"
+				},
+				{
+					"group": "bitget",
+					"account": "bitgeteosdep"
 				},
 				{
 					"group": "bithumb",
@@ -59,12 +91,96 @@
 					"account": "bithumbsend2"
 				},
 				{
+					"group": "bithumb",
+					"account": "bithumbsend5"
+				},
+				{
+					"group": "bithumb",
+					"account": "rjsrkdgktpdy"
+				},
+				{
+					"group": "bithumb",
+					"account": "wlqdprkffody"
+				},
+				{
+					"group": "bithumb",
+					"account": "k1ilvykar3w5"
+				},
+				{
+					"group": "bithumb",
+					"account": "gkdhkdlrkffo"
+				},
+				{
+					"group": "bithumb",
+					"account": "bithumbsend5"
+				},
+				{
 					"group": "bitmax",
 					"account": "bitmaxaddrz1"
 				},
 				{
+					"group": "bitmax",
+					"account": "bitmaxeos123"
+				},
+				{
+					"group": "bitmax",
+					"account": "ascendex1111"
+				},
+				{
+					"group": "bitpro",
+					"account": "bitoprovault"
+				},
+				{
+					"group": "bitpro",
+					"account": "bitoproeos11"
+				},
+				{
+					"group": "bitpro",
+					"account": "trustbitopro"
+				},
+				{
 					"group": "bittrex",
 					"account": "bittrexacct1"
+				},
+				{
+					"group": "btcturk",
+					"account": "btcturkeosio"
+				},
+				{
+					"group": "bullish",
+					"account": "bullishfunds"
+				},
+				{
+					"group": "bullish",
+					"account": "b1"
+				},
+				{
+					"group": "bullish",
+					"account": "vbdoctdtpwb1"
+				},
+				{
+					"group": "bullish",
+					"account": "r34yu2ozniwy"
+				},
+				{
+					"group": "bullish",
+					"account": "uqzq3t2m2htf"
+				},
+				{
+					"group": "bullish",
+					"account": "jdhdfthatngj"
+				},
+				{
+					"group": "bullish",
+					"account": "bullish"
+				},
+				{
+					"group": "bullish",
+					"account": "sub1.b1"
+				},
+				{
+					"group": "bullish",
+					"account": "sub2.b1"
 				},
 				{
 					"group": "bybit",
@@ -87,12 +203,36 @@
 					"account": "cateatpeanut"
 				},
 				{
+					"group": "bybit",
+					"account": "coldcrazycat"
+				},
+				{
+					"group": "bybit",
+					"account": "eosdididada3"
+				},
+				{
+					"group": "bybit",
+					"account": "kcwo3rimcnqf"
+				},
+				{
 					"group": "chaince",
 					"account": "chainceout11"
 				},
 				{
 					"group": "chaince",
 					"account": "chainceoneos"
+				},
+				{
+					"group": "cobo",
+					"account": "cobo1custody"
+				},
+				{
+					"group": "cobo",
+					"account": "cobocustody1"
+				},
+				{
+					"group": "cobo",
+					"account": "cobowalletio"
 				},
 				{
 					"group": "coinbase",
@@ -135,8 +275,68 @@
 					"account": "wallthoteo11"
 				},
 				{
+					"group": "coinbase",
+					"account": "mfmmccoygrlz"
+				},
+				{
+					"group": "coinbase",
+					"account": "wallethoteos"
+				},
+				{
+					"group": "coinbase",
+					"account": "znsksg25ywfc"
+				},
+				{
+					"group": "coinbase",
+					"account": "mpwpqvlzpqxk"
+				},
+				{
+					"group": "coinbase",
+					"account": "orwmoz3m1fol"
+				},
+				{
+					"group": "coinbase",
+					"account": "npatj32htivf"
+				},
+				{
+					"group": "coinbase",
+					"account": "y4gti5v1nbkm"
+				},
+				{
+					"group": "coinbase",
+					"account": "pxp2qjtempum"
+				},
+				{
+					"group": "coinbase",
+					"account": "rtpe3ejdk55n"
+				},
+				{
+					"group": "coinbase",
+					"account": "1wekyepxryfs"
+				},
+				{
 					"group": "coinex",
 					"account": "coinexviabtc"
+				},
+				{
+					"group": "coinex",
+					"account": "coinexcoldn1"
+				},
+				{
+					"group": "coinex",
+					"account": "viabtccoinex"
+				},
+				{
+					"group": "coinex",
+					"account": "gq4dqnzvgmge"
+				},
+				{
+					"group": "coinex",
+					"account": "gu3tcmjtgage"
+				},
+				{
+					"group": "coinjar",
+					"account": "coinjaraaaaa"
 				},
 				{
 					"group": "coinone",
@@ -147,8 +347,84 @@
 					"account": "coinonekorea"
 				},
 				{
+					"group": "coinone",
+					"account": "coinonecold1"
+				},
+				{
+					"group": "coinspot",
+					"account": "coinspoteos1"
+				},
+				{
+					"group": "coinspot",
+					"account": "coinspoteos2"
+				},
+				{
+					"group": "coinspot",
+					"account": "yze3r1gjbysz"
+				},
+				{
+					"group": "coinspot",
+					"account": "csccsccsccs1"
+				},
+				{
+					"group": "coinspot",
+					"account": "gm3dcmzzgige"
+				},
+				{
+					"group": "crypto.com",
+					"account": "ccomtranseos"
+				},
+				{
+					"group": "crypto.com",
+					"account": "cryptocomeos"
+				},
+				{
+					"group": "crypto.com",
+					"account": "51z3biptiqco"
+				},
+				{
 					"group": "exmo",
 					"account": "exmocleosdep"
+				},
+				{
+					"group": "exmo",
+					"account": "exmotreasury"
+				},
+				{
+					"group": "exmo",
+					"account": "haztkmbvgqge"
+				},
+				{
+					"group": "exmo",
+					"account": "exmoreservea"
+				},
+				{
+					"group": "exmo",
+					"account": "exmodeposits"
+				},
+				{
+					"group": "exmo",
+					"account": "exmocleosout"
+				},
+				{
+					"group": "exmo",
+					"account": "exmowithdraw"
+				},
+				{
+					"group": "exmo",
+					"account": "4cgwlvqnmxxq"
+				},
+				{
+					"group": "exmo",
+					"account": "us4pp5w1kjn4"
+				},
+				{
+					"group": "exmo",
+					"account": "jts51xdlwoey"
+				},
+				{
+					"group": "exmo",
+					"account": "exmobitstore"
 				},
 				{
 					"group": "fcoin",
@@ -195,16 +471,56 @@
 					"account": "vuniyuoxoeub"
 				},
 				{
+					"group": "huobi",
+					"account": "vcefvctpvyog"
+				},
+				{
 					"group": "idax",
 					"account": "idaxwithdraw"
+				},
+				{
+					"group": "indodax",
+					"account": "indodaxcold1"
+				},
+				{
+					"group": "indodax",
+					"account": "indodaxaccnt"
 				},
 				{
 					"group": "korbit",
 					"account": "korbiteosact"
 				},
 				{
+					"group": "korbit",
+					"account": "korbiteosone"
+				},
+				{
+					"group": "korbit",
+					"account": "korbiteostwo"
+				},
+				{
+					"group": "korbit",
+					"account": "korbiteosdep"
+				},
+				{
 					"group": "kraken",
 					"account": "krakenkraken"
+				},
+				{
+					"group": "kraken",
+					"account": "eoscoldcold1"
+				},
+				{
+					"group": "kraken",
+					"account": "hothotpanda1"
+				},
+				{
+					"group": "kraken",
+					"account": "depositpanda"
+				},
+				{
+					"group": "kraken",
+					"account": "bitpanda1234"
 				},
 				{
 					"group": "kucoin",
@@ -233,6 +549,54 @@
 				{
 					"group": "okex",
 					"account": "okbtothemoon"
+				},
+				{
+					"group": "okex",
+					"account": "okexoffiline"
+				},
+				{
+					"group": "okex",
+					"account": "gyzdamztg4ge"
+				},
+				{
+					"group": "okex",
+					"account": "uzuvkzzhzedr"
+				},
+				{
+					"group": "okex",
+					"account": "roy5xbf1m2hk"
+				},
+				{
+					"group": "okex",
+					"account": "mnpjmuwj5ym2"
+				},
+				{
+					"group": "okex",
+					"account": "xlfd5wqbpl3x"
+				},
+				{
+					"group": "okex",
+					"account": "22kon3zii2xj"
+				},
+				{
+					"group": "okex",
+					"account": "vraqpzphetu1"
+				},
+				{
+					"group": "okex",
+					"account": "4nt1pcu1rkao"
+				},
+				{
+					"group": "okex",
+					"account": "ue5mhdappbau"
+				},
+				{
+					"group": "okex",
+					"account": "fzzsakhb2qqk"
+				},
+				{
+					"group": "okex",
+					"account": "ynatwd5c4edx"
 				},
 				{
 					"group": "otcbtc",
@@ -308,7 +672,15 @@
 				},
 				{
 					"group": "upbit",
+					"account": "eosupbitshot"
+				},
+				{
+					"group": "upbit",
 					"account": "rptrxwgfeqyn"
+				},
+				{
+					"group": "uphold",
+					"account": "upholduphodl"
 				},
 				{
 					"group": "whaleex",
@@ -321,6 +693,14 @@
 				{
 					"group": "zb",
 					"account": "zbeosforsend"
+				},
+				{
+					"group": "zoomex",
+					"account": "outforzoomex"
+				},
+				{
+					"group": "zoomex",
+					"account": "eosforzoomex"
 				}
 			],
 			"dex": [
@@ -351,6 +731,18 @@
 				{
 					"group": "defibox",
 					"account": "lppool.defi"
+				},
+				{
+					"group": "defibox",
+					"account": "danchorsmart"
+				},
+				{
+					"group": "defibox",
+					"account": "lend.defi"
+				},
+				{
+					"group": "defibox",
+					"account": "reserve.defi"
 				},
 				{
 					"group": "dfs",
@@ -444,6 +836,52 @@
 					"group": "whaleex",
 					"account": "whaleextrust"
 				}
+			],
+			"ventures": [
+				{
+					"group": "bixin",
+					"account": "wallet4bixin"
+				},
+				{
+					"group": "eosiseosbest",
+					"account": "chinameeteos"
+				},
+				{
+					"group": "eosiseosbest",
+					"account": "eosiseosbest"
+				},
+				{
+					"group": "eosiseosbest",
+					"account": "eosholdereos"
+				},
+				{
+					"group": "helios",
+					"account": "heliosrising"
+				},
+				{
+					"group": "stakecasino",
+					"account": "stakecasino1"
+				},
+				{
+					"group": "turkmanistan",
+					"account": "turkmanistan"
+				},
+				{
+					"group": "turkmanistan",
+					"account": "growergrower"
+				},
+				{
+					"group": "turkmanistan",
+					"account": "utility12345"
+				},
+				{
+					"group": "turkmanistan",
+					"account": "sandwander21"
+				},
+				{
+					"group": "turkmanistan",
+					"account": "callmedrworm"
+				}
 			]
 		},
 		"dapps": {
@@ -478,6 +916,18 @@
 				{
 					"group": "1bet",
 					"account": "sportbet1bet"
+				},
+				{
+					"group": "1bet",
+					"account": "coldstorage4"
+				},
+				{
+					"group": "1bet",
+					"account": "sportbetcrew"
+				},
+				{
+					"group": "1bet",
+					"account": "greeksystems"
 				},
 				{
 					"group": "1dice",
@@ -650,6 +1100,10 @@
 				{
 					"group": "bethash",
 					"account": "eoshashdices"
+				},
+				{
+					"group": "bethash",
+					"account": "eoshashfunds"
 				},
 				{
 					"group": "bethorse",
@@ -1574,30 +2028,6 @@
 				{
 					"group": "eosguess",
 					"account": "eosguessking"
-				},
-				{
-					"group": "eoshash",
-					"account": "eoshashhouse"
-				},
-				{
-					"group": "eoshash",
-					"account": "eoshashstake"
-				},
-				{
-					"group": "eoshash",
-					"account": "eoshashpoker"
-				},
-				{
-					"group": "eoshash",
-					"account": "eoshashcoins"
-				},
-				{
-					"group": "eoshash",
-					"account": "eoshashlotto"
-				},
-				{
-					"group": "eoshash",
-					"account": "eoshashjkpot"
 				},
 				{
 					"group": "eosjack-blackjack",
@@ -3225,10 +3655,6 @@
 					"account": "cptblackbill"
 				},
 				{
-					"group": "ccom",
-					"account": "ccomtranseos"
-				},
-				{
 					"group": "cryptomeetup",
 					"account": "cryptomeetup"
 				},
@@ -3767,6 +4193,10 @@
 				{
 					"group": "eosio",
 					"account": "eosio.grants"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.saving"
 				}
 			],
 			"genesis": [],
@@ -3794,6 +4224,16 @@
 				{
 					"group": "stake",
 					"account": "eosio.stake"
+				}
+			],
+			"enf": [
+				{
+					"group": "enf",
+					"account": "eosio.grants"
+				},
+				{
+					"group": "enf",
+					"account": "admin.grants"
 				}
 			]
 		}
