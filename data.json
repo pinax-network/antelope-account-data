@@ -183,6 +183,14 @@
 					"account": "sub2.b1"
 				},
 				{
+					"group": "bullish",
+					"account": "j4obibe5lfv1"
+				},
+				{
+					"group": "bullish",
+					"account": "q2x42znzkclp"
+				},
+				{
 					"group": "bybit",
 					"account": "bybitzhou.tp"
 				},
@@ -523,6 +531,14 @@
 					"account": "bitpanda1234"
 				},
 				{
+					"group": "kraken",
+					"account": "winterishere"
+				},
+				{
+					"group": "kraken",
+					"account": "geztgnjqgene"
+				},
+				{
 					"group": "kucoin",
 					"account": "kucoindoteos"
 				},
@@ -853,6 +869,14 @@
 				{
 					"group": "eosiseosbest",
 					"account": "eosholdereos"
+				},
+				{
+					"group": "eosiseosbest",
+					"account": "eoslongchain"
+				},
+				{
+					"group": "eosiseosbest",
+					"account": "weallplayeos"
 				},
 				{
 					"group": "helios",
