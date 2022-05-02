@@ -1,5 +1,5 @@
 // Simple dataset which only contain the account name
-export type Dataset = string[];
+export type Dataset = { group: string, account: string }[];
 
 export interface Token {
     name:        string;

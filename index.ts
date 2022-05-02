@@ -58,10 +58,14 @@ const data: Blockchains = {
 for (const chain of ["eos", "bos", "wax"]) {
     console.log(`processing [${chain}::system]`)
     for (const filepath of glob.sync(path.join(__dirname, "json", chain, "system", "*.json"))) {
-        const {name} = path.parse(filepath);
-
         const dataset = load.sync<Dataset>(filepath);
-        data[chain].system[name] = dataset;
+        const sub = path.parse(filepath.split(path.join("json", chain, "system"))[1]);
+        const name = sub.name;
+
+        if (!data[chain].system[name]) data[chain].system[name] = [];
+        for (const account of dataset) {
+            data[chain].system[name].push({group: name, account});
+        }
     }
 }
 
@@ -74,8 +78,9 @@ for (const chain of ["eos"]) {
         const name = path.parse(sub.dir).name;
 
         if (!data[chain].dapps[name]) data[chain].dapps[name] = [];
-        for (const row of dataset) {
-            data[chain].dapps[name].push(row);
+        for (const account of dataset) {
+            const group = sub.base.replace(".json", "");
+            data[chain].dapps[name].push({group, account});
         }
     }
 }
@@ -89,8 +94,9 @@ for (const chain of ["eos", "bos"]) {
         const name = path.parse(sub.dir).name;
 
         if (!data[chain].exchanges[name]) data[chain].exchanges[name] = [];
-        for (const row of dataset) {
-            data[chain].exchanges[name].push(row);
+        for (const account of dataset) {
+            const group = sub.base.replace(".json", "");
+            data[chain].exchanges[name].push({group, account});
         }
     }
 }

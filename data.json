@@ -2,988 +2,3799 @@
 	"eos": {
 		"exchanges": {
 			"cex": [
-				"aexdepositbm",
-				"bibox3wallet",
-				"pxneosincome",
-				"binancecleos",
-				"heztanrqgene",
-				"binancecold1",
-				"maineosofbin",
-				"binancecold1",
-				"heztanrqgene",
-				"bitfinexdep1",
-				"bweosdeposit",
-				"bithumbwarm1",
-				"bithumbrecv1",
-				"bithumbsend2",
-				"bitmaxaddrz1",
-				"bittrexacct1",
-				"bybitzhou.tp",
-				"eosduduyou22",
-				"eosbybit1314",
-				"bybitdeposit",
-				"cateatpeanut",
-				"chainceout11",
-				"chainceoneos",
-				"wallthoteos1",
-				"wallthoteos2",
-				"wallthoteos3",
-				"wallthoteos4",
-				"wallthoteos5",
-				"ldtwqorwcohm",
-				"yqzqy1brkyia",
-				"coinbasebase",
-				"wallthoteo12",
-				"wallthoteo11",
-				"coinexviabtc",
-				"coinonewallt",
-				"coinonekorea",
-				"exmocleosdep",
-				"fcoineosio11",
-				"fcoindeposit",
-				"gateiowallet",
-				"gdexioforeos",
-				"geminipomelo",
-				"gopaxdeposit",
-				"hitbtcpayout",
-				"hitbtcpayins",
-				"eoshoowallet",
-				"huobideposit",
-				"vuniyuoxoeub",
-				"idaxwithdraw",
-				"korbiteosact",
-				"krakenkraken",
-				"kucoindoteos",
-				"kucoinsender",
-				"kucoinriseup",
-				"qlwzviixzm1h",
-				"mxcexdeposit",
-				"ndaxexchange",
-				"okbtothemoon",
-				"otcbtcdotcom",
-				"poloniexeos1",
-				"probitwallet",
-				"bweosdeposit",
-				"bitzdeposit1",
-				"eosusrwallet",
-				"dunamueoshot",
-				"eosupbitsusr",
-				"eosupbitsnd1",
-				"eosupbitsnd2",
-				"eosupbitsnd3",
-				"eosupbitsnd4",
-				"eosupbitsnd5",
-				"eosupbithot1",
-				"eosupbithot2",
-				"eosupbithot3",
-				"eosupbithot4",
-				"eosupbithot5",
-				"rptrxwgfeqyn",
-				"whaleexgate5",
-				"zbeoscharge1",
-				"zbeosforsend"
+				{
+					"group": "aex",
+					"account": "aexdepositbm"
+				},
+				{
+					"group": "bibox",
+					"account": "bibox3wallet"
+				},
+				{
+					"group": "bigone",
+					"account": "pxneosincome"
+				},
+				{
+					"group": "binance",
+					"account": "binancecleos"
+				},
+				{
+					"group": "binance",
+					"account": "heztanrqgene"
+				},
+				{
+					"group": "binance",
+					"account": "binancecold1"
+				},
+				{
+					"group": "binance",
+					"account": "maineosofbin"
+				},
+				{
+					"group": "binance",
+					"account": "binancecold1"
+				},
+				{
+					"group": "binance",
+					"account": "heztanrqgene"
+				},
+				{
+					"group": "bitfinex",
+					"account": "bitfinexdep1"
+				},
+				{
+					"group": "bithumb",
+					"account": "bweosdeposit"
+				},
+				{
+					"group": "bithumb",
+					"account": "bithumbwarm1"
+				},
+				{
+					"group": "bithumb",
+					"account": "bithumbrecv1"
+				},
+				{
+					"group": "bithumb",
+					"account": "bithumbsend2"
+				},
+				{
+					"group": "bitmax",
+					"account": "bitmaxaddrz1"
+				},
+				{
+					"group": "bittrex",
+					"account": "bittrexacct1"
+				},
+				{
+					"group": "bybit",
+					"account": "bybitzhou.tp"
+				},
+				{
+					"group": "bybit",
+					"account": "eosduduyou22"
+				},
+				{
+					"group": "bybit",
+					"account": "eosbybit1314"
+				},
+				{
+					"group": "bybit",
+					"account": "bybitdeposit"
+				},
+				{
+					"group": "bybit",
+					"account": "cateatpeanut"
+				},
+				{
+					"group": "chaince",
+					"account": "chainceout11"
+				},
+				{
+					"group": "chaince",
+					"account": "chainceoneos"
+				},
+				{
+					"group": "coinbase",
+					"account": "wallthoteos1"
+				},
+				{
+					"group": "coinbase",
+					"account": "wallthoteos2"
+				},
+				{
+					"group": "coinbase",
+					"account": "wallthoteos3"
+				},
+				{
+					"group": "coinbase",
+					"account": "wallthoteos4"
+				},
+				{
+					"group": "coinbase",
+					"account": "wallthoteos5"
+				},
+				{
+					"group": "coinbase",
+					"account": "ldtwqorwcohm"
+				},
+				{
+					"group": "coinbase",
+					"account": "yqzqy1brkyia"
+				},
+				{
+					"group": "coinbase",
+					"account": "coinbasebase"
+				},
+				{
+					"group": "coinbase",
+					"account": "wallthoteo12"
+				},
+				{
+					"group": "coinbase",
+					"account": "wallthoteo11"
+				},
+				{
+					"group": "coinex",
+					"account": "coinexviabtc"
+				},
+				{
+					"group": "coinone",
+					"account": "coinonewallt"
+				},
+				{
+					"group": "coinone",
+					"account": "coinonekorea"
+				},
+				{
+					"group": "exmo",
+					"account": "exmocleosdep"
+				},
+				{
+					"group": "fcoin",
+					"account": "fcoineosio11"
+				},
+				{
+					"group": "fcoin",
+					"account": "fcoindeposit"
+				},
+				{
+					"group": "gateio",
+					"account": "gateiowallet"
+				},
+				{
+					"group": "gdex",
+					"account": "gdexioforeos"
+				},
+				{
+					"group": "gemini",
+					"account": "geminipomelo"
+				},
+				{
+					"group": "gopax",
+					"account": "gopaxdeposit"
+				},
+				{
+					"group": "hitbtc",
+					"account": "hitbtcpayout"
+				},
+				{
+					"group": "hitbtc",
+					"account": "hitbtcpayins"
+				},
+				{
+					"group": "hoo",
+					"account": "eoshoowallet"
+				},
+				{
+					"group": "huobi",
+					"account": "huobideposit"
+				},
+				{
+					"group": "huobi",
+					"account": "vuniyuoxoeub"
+				},
+				{
+					"group": "idax",
+					"account": "idaxwithdraw"
+				},
+				{
+					"group": "korbit",
+					"account": "korbiteosact"
+				},
+				{
+					"group": "kraken",
+					"account": "krakenkraken"
+				},
+				{
+					"group": "kucoin",
+					"account": "kucoindoteos"
+				},
+				{
+					"group": "kucoin",
+					"account": "kucoinsender"
+				},
+				{
+					"group": "kucoin",
+					"account": "kucoinriseup"
+				},
+				{
+					"group": "kucoin",
+					"account": "qlwzviixzm1h"
+				},
+				{
+					"group": "mx",
+					"account": "mxcexdeposit"
+				},
+				{
+					"group": "ndax",
+					"account": "ndaxexchange"
+				},
+				{
+					"group": "okex",
+					"account": "okbtothemoon"
+				},
+				{
+					"group": "otcbtc",
+					"account": "otcbtcdotcom"
+				},
+				{
+					"group": "poloniex",
+					"account": "poloniexeos1"
+				},
+				{
+					"group": "probit",
+					"account": "probitwallet"
+				},
+				{
+					"group": "unknown",
+					"account": "bweosdeposit"
+				},
+				{
+					"group": "unknown",
+					"account": "bitzdeposit1"
+				},
+				{
+					"group": "unknown",
+					"account": "eosusrwallet"
+				},
+				{
+					"group": "unknown",
+					"account": "dunamueoshot"
+				},
+				{
+					"group": "upbit",
+					"account": "eosupbitsusr"
+				},
+				{
+					"group": "upbit",
+					"account": "eosupbitsnd1"
+				},
+				{
+					"group": "upbit",
+					"account": "eosupbitsnd2"
+				},
+				{
+					"group": "upbit",
+					"account": "eosupbitsnd3"
+				},
+				{
+					"group": "upbit",
+					"account": "eosupbitsnd4"
+				},
+				{
+					"group": "upbit",
+					"account": "eosupbitsnd5"
+				},
+				{
+					"group": "upbit",
+					"account": "eosupbithot1"
+				},
+				{
+					"group": "upbit",
+					"account": "eosupbithot2"
+				},
+				{
+					"group": "upbit",
+					"account": "eosupbithot3"
+				},
+				{
+					"group": "upbit",
+					"account": "eosupbithot4"
+				},
+				{
+					"group": "upbit",
+					"account": "eosupbithot5"
+				},
+				{
+					"group": "upbit",
+					"account": "rptrxwgfeqyn"
+				},
+				{
+					"group": "whaleex",
+					"account": "whaleexgate5"
+				},
+				{
+					"group": "zb",
+					"account": "zbeoscharge1"
+				},
+				{
+					"group": "zb",
+					"account": "zbeosforsend"
+				}
 			],
 			"dex": [
-				"eostokensdex",
-				"alcorammswap",
-				"thisisbancor",
-				"swap.defi",
-				"lpr.defi",
-				"usnpool.defi",
-				"lppool.defi",
-				"defisswapcnt",
-				"dolphinsswap",
-				"ecrveosdtpol",
-				"ecrvusnpool1",
-				"ecrvvigorpol",
-				"ecurve3pool1",
-				"hybridxcleos",
-				"eosexhwallet",
-				"evolutiondex",
-				"hamburgerswp",
-				"mindswapswap",
-				"newdexpocket",
-				"newdexpublic",
-				"agg.newdex",
-				"onesgamedefi",
-				"swap.pcash",
-				"swap.pizza",
-				"air.pizza",
-				"pzaswapcntct",
-				"ptoswapaccts",
-				"swap.rome",
-				"curve.sx",
-				"whaleextrust"
+				{
+					"group": "alcor",
+					"account": "eostokensdex"
+				},
+				{
+					"group": "alcor",
+					"account": "alcorammswap"
+				},
+				{
+					"group": "bancorx",
+					"account": "thisisbancor"
+				},
+				{
+					"group": "defibox",
+					"account": "swap.defi"
+				},
+				{
+					"group": "defibox",
+					"account": "lpr.defi"
+				},
+				{
+					"group": "defibox",
+					"account": "usnpool.defi"
+				},
+				{
+					"group": "defibox",
+					"account": "lppool.defi"
+				},
+				{
+					"group": "dfs",
+					"account": "defisswapcnt"
+				},
+				{
+					"group": "dolphin",
+					"account": "dolphinsswap"
+				},
+				{
+					"group": "ecurve",
+					"account": "ecrveosdtpol"
+				},
+				{
+					"group": "ecurve",
+					"account": "ecrvusnpool1"
+				},
+				{
+					"group": "ecurve",
+					"account": "ecrvvigorpol"
+				},
+				{
+					"group": "ecurve",
+					"account": "ecurve3pool1"
+				},
+				{
+					"group": "eosex",
+					"account": "hybridxcleos"
+				},
+				{
+					"group": "eosex",
+					"account": "eosexhwallet"
+				},
+				{
+					"group": "evolution",
+					"account": "evolutiondex"
+				},
+				{
+					"group": "hamburger",
+					"account": "hamburgerswp"
+				},
+				{
+					"group": "mindswap",
+					"account": "mindswapswap"
+				},
+				{
+					"group": "newdex",
+					"account": "newdexpocket"
+				},
+				{
+					"group": "newdex",
+					"account": "newdexpublic"
+				},
+				{
+					"group": "newdex",
+					"account": "agg.newdex"
+				},
+				{
+					"group": "onegame",
+					"account": "onesgamedefi"
+				},
+				{
+					"group": "pcash",
+					"account": "swap.pcash"
+				},
+				{
+					"group": "pizza",
+					"account": "swap.pizza"
+				},
+				{
+					"group": "pizza",
+					"account": "air.pizza"
+				},
+				{
+					"group": "pizza",
+					"account": "pzaswapcntct"
+				},
+				{
+					"group": "pto",
+					"account": "ptoswapaccts"
+				},
+				{
+					"group": "rome",
+					"account": "swap.rome"
+				},
+				{
+					"group": "sx",
+					"account": "curve.sx"
+				},
+				{
+					"group": "whaleex",
+					"account": "whaleextrust"
+				}
 			]
 		},
 		"dapps": {
 			"account": [
-				"dfsacmanager",
-				"accountcreat",
-				"regofdapppub",
-				"exregdapppub",
-				"signupeoscom",
-				"signupeoseos"
+				{
+					"group": "dfs",
+					"account": "dfsacmanager"
+				},
+				{
+					"group": "eos-account-creator",
+					"account": "accountcreat"
+				},
+				{
+					"group": "eos-account-registration-assistant",
+					"account": "regofdapppub"
+				},
+				{
+					"group": "eos-account-registration-assistant",
+					"account": "exregdapppub"
+				},
+				{
+					"group": "signupeos",
+					"account": "signupeoscom"
+				},
+				{
+					"group": "signupeoseos",
+					"account": "signupeoseos"
+				}
 			],
 			"collectibles": [],
 			"gambling": [
-				"sportbet1bet",
-				"onedicewarm1",
-				"taiwanx2o2ox",
-				"214odicedice",
-				"21dicepalace",
-				"21diceearn11",
-				"21diceearn12",
-				"eos2betprime",
-				"dailypowdeos",
-				"eosbingotoke",
-				"eosbingokinn",
-				"eosbingotrak",
-				"acegamedice1",
-				"acegametoken",
-				"eosdeveosdev",
-				"eosjustturbo",
-				"getbarotoken",
-				"bbgamehouses",
-				"luckyeosdice",
-				"bet24diceone",
-				"bet24dicelog",
-				"eosbet5game1",
-				"betsacetoken",
-				"acebacchouse",
-				"acedicehouse",
-				"aceaccounton",
-				"acebpayhouse",
-				"acebalanceon",
-				"acebetstoken",
-				"betcityadmin",
-				"betcityholdr",
-				"betcitygdice",
-				"betcityg1act",
-				"betdoggame11",
-				"betdogcoin11",
-				"betdogstaked",
-				"betgcontract",
-				"eoshashhouse",
-				"eoshashstake",
-				"eoshashpoker",
-				"eoshashcoins",
-				"eoshashlotto",
-				"eoshashjkpot",
-				"eoshashdices",
-				"horse.x",
-				"horsetoken.x",
-				"horsestake.x",
-				"luckydicewin",
-				"bsdice111111",
-				"eossicbo1111",
-				"bsroulette11",
-				"betsandrou11",
-				"betsandsic11",
-				"betsanddic11",
-				"betsandbacca",
-				"betsandfunds",
-				"steamiodice1",
-				"steamiobacca",
-				"steamiobank1",
-				"steamiostake",
-				"steamwallet1",
-				"steamiobonus",
-				"thebetxowner",
-				"thebetxtoken",
-				"eosbiggame11",
-				"eosbiggame22",
-				"eosbiggame33",
-				"eosbiggame44",
-				"bgpresale111",
-				"bgdividend11",
-				"bgdiceproxy1",
-				"eosbiggame55",
-				"eosbiggame11",
-				"eosbiggame22",
-				"eosbiggame33",
-				"eosbiggame44",
-				"bgpresale111",
-				"bgdividend11",
-				"bgdiceproxy1",
-				"eosbiggame55",
-				"bgbetwallet1",
-				"biggamevip11",
-				"imeoswinner1",
-				"billionairet",
-				"billionburnr",
-				"billionraffl",
-				"bingobetgame",
-				"bingoprofits",
-				"bingobetserv",
-				"blackjack.e",
-				"faireosadmin",
-				"faireosstake",
-				"faireosbanks",
-				"tttblackjack",
-				"bmeosdicerr1",
-				"buyachareos1",
-				"eoscandywins",
-				"mugglecasego",
-				"bancor3dcode",
-				"Casinolordio",
-				"catchthefrog",
-				"eoschessdice",
-				"eoachessteam",
-				"chessiotoken",
-				"fighttodeath",
-				"xmassnowball",
-				"crazydicenet",
-				"crmaniaslot1",
-				"crmaniahouse",
-				"crmaniadivid",
-				"chainbankeos",
-				"cryptreasure",
-				"farmdeposit1",
-				"farmwithdraw",
-				"cryptocoingm",
-				"cryptsangoku",
-				"bancor3dcode",
-				"mgtexaspoker",
-				"mgtexaspoker",
-				"warofstar.e",
-				"baccarat.e",
-				"roulette.e",
-				"dappbaccarat",
-				"dgpokereosio",
-				"bobinghotbag",
-				"bingbingeos1",
-				"dbetonesicbo",
-				"dbetdividend",
-				"dbetminepool",
-				"dbetonedice1",
-				"dbetlovebobo",
-				"dbetsparebag",
-				"thedeosgames",
-				"eosdiamonds1",
-				"dicecenter11",
-				"betdiceadmin",
-				"betdicesales",
-				"betdicelotto",
-				"betdicebacca",
-				"betdicesaver",
-				"betdiceusers",
-				"betdicestake",
-				"betdicegroup",
-				"betdicesicbo",
-				"betdicetasks",
-				"betdicefunds",
-				"betdicehouse",
-				"betdicecoops",
-				"guessfoxgame",
-				"dicekingplay",
-				"dgatepokergc",
-				"dragonoption",
-				"youziqipaiyx",
-				"dragonoption",
-				"dslots123123",
-				"dslotsdivtok",
-				"dtheoschain1",
-				"firedreameos",
-				"sanlijishubu",
-				"endlessbank1",
-				"endlessdicex",
-				"endlesslogs1",
-				"endlessdivdn",
-				"endlesslotto",
-				"lottologgerx",
-				"lottooptcost",
-				"endlesscrash",
-				"crashloggerx",
-				"betlottoinst",
-				"betlotto1day",
-				"betftymainac",
-				"betfyplayers",
-				"betftystakes",
-				"eosbrandgame",
-				"crazytown.bp",
-				"eoschance111",
-				"eosfancyfarm",
-				"eosjustaward",
-				"eosfomogame1",
-				"alibabapool1",
-				"horsemain123",
-				"shadowsguess",
-				"llgcontract1",
-				"llgfundpoool",
-				"llgcontract1",
-				"llgcontract2",
-				"llgcontract3",
-				"llgcontract4",
-				"llgcontract5",
-				"llgcontracta",
-				"eoslotto1111",
-				"luckymedice1",
-				"luckymecowpk",
-				"eosmaxioslot",
-				"eosmaxiodice",
-				"eosmaxioteam",
-				"eosmaxiobull",
-				"eosmaxiodivi",
-				"eosmaxiodraw",
-				"eosmaxiorank",
-				"eosmaxiopool",
-				"eosmaxiocost",
-				"packeostoken",
-				"packeosminer",
-				"packeosgains",
-				"eosiopirates",
-				"eospokerwins",
-				"eospokerbank",
-				"eosrolldapps",
-				"eosroulettes",
-				"roulettespin",
-				"roulettefees",
-				"sangongpoker",
-				"eosioshadows",
-				"sicboadminvv",
-				"giytamzzguge",
-				"thechampions",
-				"texaspokers1",
-				"eostimecontr",
-				"eostimehouse",
-				"eostimefauce",
-				"pvpgametoken",
-				"eostowergame",
-				"eosluckygame",
-				"eosluckydice",
-				"iamblackjack",
-				"eosworldmap1",
-				"playeosworld",
-				"baccarateos1",
-				"eos2wingames",
-				"windividends",
-				"eosabciodice",
-				"eosabcescape",
-				"eosabcblack1",
-				"eosbanksfund",
-				"eosbetdice11",
-				"eosbaccarat1",
-				"eosbetcrash1",
-				"eosbetbank11",
-				"ezeosaccount",
-				"betdividends",
-				"eosiobetdice",
-				"eosblingebgx",
-				"eosblinggame",
-				"eosblingbetx",
-				"eosbluejacks",
-				"lynxtoken123",
-				"eosblue2user",
-				"eosblue2ball",
-				"eosbluetexas",
-				"eosbluethree",
-				"eosbluffacct",
-				"eoscrashmain",
-				"crashdividen",
-				"eoscrashstke",
-				"eosbocai2222",
-				"bocai.game",
-				"eosevendice1",
-				"eosfakerroll",
-				"eosfakerlott",
-				"eosfakersale",
-				"eosfakerrefs",
-				"eosfakerfomo",
-				"efinitysicbo",
-				"eosfuneos111",
-				"eosgamezdice",
-				"eosgamezgold",
-				"eosgetdice12",
-				"eosgetbox123",
-				"eosgetadmin1",
-				"eosgetbaccar",
-				"eosgetdice12",
-				"eosgetbox123",
-				"eosgetadmin1",
-				"eosguessking",
-				"eoshashhouse",
-				"eoshashstake",
-				"eoshashpoker",
-				"eoshashcoins",
-				"eoshashlotto",
-				"eoshashjkpot",
-				"eosjacklucky",
-				"eosjacksdice",
-				"eosjackssale",
-				"eosjackspool",
-				"eosjacksjpot",
-				"eosjacksjack",
-				"eosjacksgleg",
-				"eosjackgleg1",
-				"eoslotsystem",
-				"accountbadla",
-				"luckchainone",
-				"eosluck.bank",
-				"eosnowatoken",
-				"eosnowbetmsg",
-				"eosnowbetext",
-				"eosnowbpower",
-				"eospindealer",
-				"eosshishicai",
-				"eosplaybrand",
-				"epsdcclassic",
-				"epsdcreceipt",
-				"epsbank11111",
-				"alibabapools",
-				"eosgamepool3",
-				"eosrandthree",
-				"eosrandgames",
-				"eosreeltoken",
-				"eosreelhouse",
-				"eosreeladmin",
-				"eosreelsaver",
-				"eosreelgroup",
-				"eosreelstake",
-				"roulettespin",
-				"eostgcgame11",
-				"eostgcpopool",
-				"eostgcfirst1",
-				"vagasgame111",
-				"eoswaronelab",
-				"eoswaymaster",
-				"eoswayenigma",
-				"eoswaymotors",
-				"tryeoswinone",
-				"eoswinonennn",
-				"eoszealbank1",
-				"threecards.e",
-				"tokenbonus.e",
-				"estoken.e",
-				"eworldtoken1",
-				"eworlddvdend",
-				"eworldbank11",
-				"eworlddice11",
-				"xlotoioeosio",
-				"baccarat.e",
-				"fairdicegame",
-				"farmeosbank1",
-				"farmeosbank2",
-				"farmeosbank3",
-				"farmeosdepos",
-				"farmeosrcpxx",
-				"farmeosrichx",
-				"farmeosrich1",
-				"farmeosmarkt",
-				"fastwinadmin",
-				"fastwinsales",
-				"fastwindice1",
-				"fastwindice3",
-				"fastwincrash",
-				"fastwinhold1",
-				"fastwincards",
-				"fastwinboss1",
-				"fastwinpoker",
-				"fastwingifts",
-				"fastwinblack",
-				"fastwinhold2",
-				"fastwinrsvbt",
-				"fastecoadmin",
-				"ffgameiodice",
-				"ffgamebacara",
-				"ffgametokens",
-				"ffgamebonus1",
-				"ffgameniuniu",
-				"ffgameioteam",
-				"ffgamemarket",
-				"ffgametongbi",
-				"luckgamefish",
-				"fishjoyadmin",
-				"fishjoytoken",
-				"fishjoystake",
-				"fishjoykingg",
-				"fishjoycoinn",
-				"flappybirds1",
-				"funcity1main",
-				"gambeosadmin",
-				"gameskytoken",
-				"gameskypools",
-				"gamesky2dice",
-				"gameskyqiu3d",
-				"gamesky2race",
-				"rockscissors",
-				"gemcitymines",
-				"gemcitytoken",
-				"goodgamedice",
-				"eosggsgame11",
-				"eosggshost11",
-				"eosggsgame13",
-				"ctgbarbeting",
-				"blackjack.e",
-				"godice.e",
-				"goldcoast111",
-				"eos2goodluck",
-				"growgamesrps",
-				"rockpapersci",
-				"happyeosslot",
-				"happypokerio",
-				"higoldtokens",
-				"pokerkadmin1",
-				"hongbaogames",
-				"hongbaoopens",
-				"hongbaodrop1",
-				"hongbaominer",
-				"hongbaoissue",
-				"hongbaobonus",
-				"hongbaosales",
-				"honordiceeos",
-				"hotbetsadmin",
-				"huoguogameos",
-				"dicer.e",
-				"boxgameadmin",
-				"guessdapppub",
-				"guessoptions",
-				"admindapppub",
-				"iluckyilucky",
-				"luckycat1111",
-				"itehappydice",
-				"itesuperdice",
-				"itetptptdice",
-				"dicjacksblue",
-				"bidjacksblue",
-				"divjacksblue",
-				"jankenjanken",
-				"justjielong1",
-				"junkenpunch1",
-				"eoskingofeos",
-				"koidicegame1",
-				"eosboxadmin1",
-				"kuai3kuai3io",
-				"letseoscoder",
-				"lotteryxx1oo",
-				"lovewin12345",
-				"nbnbnbnb1234",
-				"luckbetadmin",
-				"rich12345eos",
-				"eosluckycoin",
-				"eoscrown2222",
-				"lucknumgames",
-				"nutsgambling",
-				"nutscontract",
-				"tkyyshayysha",
-				"bkyyshayysha",
-				"youhappyisok",
-				"rouletteplay",
-				"luckyredpack",
-				"liantongct13",
-				"luckygoadmin",
-				"luckygodice1",
-				"luckygotoken",
-				"luckygobonus",
-				"luckyoslucky",
-				"magicpokerio",
-				"mangodice111",
-				"mangotoken11",
-				"mangosales11",
-				"mangocasino1",
-				"mangohold111",
-				"itsmyeosdice",
-				"mymillionsio",
-				"Nakamotorun2",
-				"okbankmanage",
-				"okbankexpend",
-				"okbetdice111",
-				"oneplaygames",
-				"oneplaytoken",
-				"pickowngames",
-				"piggybankbag",
-				"playdappgame",
-				"playgamesapp",
-				"pokereosgame",
-				"pokereosbull",
-				"pokereoshold",
-				"dcdpcontract",
-				"pokereoscost",
-				"pokereosteam",
-				"poseidonplay",
-				"poseidonbank",
-				"poseidoncoin",
-				"ppgamenumber",
-				"ppgametokens",
-				"ppgamebanker",
-				"ppgamefruits",
-				"ppgamefisher",
-				"psidiceadmin",
-				"toppaigow123",
-				"qpgamessuoha",
-				"qpgamessuoha",
-				"wineosmaster",
-				"gamblrblackj",
-				"warofstar.e",
-				"reliablebet1",
-				"oasisbancor1",
-				"pvpgamesrock",
-				"rpsbyp2pgame",
-				"p2pgametoken",
-				"roshambogame",
-				"roulette.e",
-				"eosvegasjack",
-				"eosrushdice1",
-				"scratchers55",
-				"xxxsevensxxx",
-				"mycryptoslot",
-				"mycryptoslog",
-				"slotmachine1",
-				"solitaireapp",
-				"solitairelog",
-				"solitaireprx",
-				"sprtshubbets",
-				"stackdicexxx",
-				"eosswintiger",
-				"richrich2222",
-				"eosswindice4",
-				"bancor3dcode",
-				"mgtexaspoker",
-				"bancor3dcode",
-				"mgtexaspoker",
-				"eoswincoin11",
-				"eoswincoin12",
-				"slotcontract",
-				"tobetiotoken",
-				"tobetioadmin",
-				"tokenlottery",
-				"treasuregame",
-				"eosgamesprod",
-				"trustdicewin",
-				"txtforbounty",
-				"txtformining",
-				"trustcrashio",
-				"trustbetgame",
-				"ubetubetubet",
-				"uudogeetoken",
-				"uudogeeadmin",
-				"uudogeehouse",
-				"uugamesrefer",
-				"vsvsvsbetbet",
-				"vsvsdivident",
-				"vsvsvsvipvip",
-				"vsvsvswallet",
-				"vsvscontract",
-				"iwediceadmin",
-				"wintownworld",
-				"winalliopool",
-				"winalliodice",
-				"winalliowarm",
-				"winalliocold",
-				"eoswinplayio",
-				"endlesswwlog",
-				"endlesswarxx",
-				"conquerworld",
-				"xdappactions",
-				"yumscontract",
-				"yumgamessale",
-				"yumslottery2",
-				"yumsflipcoin",
-				"yumsairgrab1",
-				"yumredpacket",
-				"zionstake111",
-				"ziongamesone"
+				{
+					"group": "1bet",
+					"account": "sportbet1bet"
+				},
+				{
+					"group": "1dice",
+					"account": "onedicewarm1"
+				},
+				{
+					"group": "2020-taiwan-election",
+					"account": "taiwanx2o2ox"
+				},
+				{
+					"group": "2140-toss-a-coin",
+					"account": "214odicedice"
+				},
+				{
+					"group": "21dice",
+					"account": "21dicepalace"
+				},
+				{
+					"group": "21dice",
+					"account": "21diceearn11"
+				},
+				{
+					"group": "21dice",
+					"account": "21diceearn12"
+				},
+				{
+					"group": "333-eos",
+					"account": "eos2betprime"
+				},
+				{
+					"group": "400eos",
+					"account": "dailypowdeos"
+				},
+				{
+					"group": "8-bingo",
+					"account": "eosbingotoke"
+				},
+				{
+					"group": "8-bingo",
+					"account": "eosbingokinn"
+				},
+				{
+					"group": "8-bingo",
+					"account": "eosbingotrak"
+				},
+				{
+					"group": "ace-game",
+					"account": "acegamedice1"
+				},
+				{
+					"group": "ace-game",
+					"account": "acegametoken"
+				},
+				{
+					"group": "american-roulette",
+					"account": "eosdeveosdev"
+				},
+				{
+					"group": "awardcraft",
+					"account": "eosjustturbo"
+				},
+				{
+					"group": "baskin-reos",
+					"account": "getbarotoken"
+				},
+				{
+					"group": "bbgame",
+					"account": "bbgamehouses"
+				},
+				{
+					"group": "best-dice",
+					"account": "luckyeosdice"
+				},
+				{
+					"group": "bet24",
+					"account": "bet24diceone"
+				},
+				{
+					"group": "bet24",
+					"account": "bet24dicelog"
+				},
+				{
+					"group": "bet500",
+					"account": "eosbet5game1"
+				},
+				{
+					"group": "betace",
+					"account": "betsacetoken"
+				},
+				{
+					"group": "betace",
+					"account": "acebacchouse"
+				},
+				{
+					"group": "betace",
+					"account": "acedicehouse"
+				},
+				{
+					"group": "betace",
+					"account": "aceaccounton"
+				},
+				{
+					"group": "betace",
+					"account": "acebpayhouse"
+				},
+				{
+					"group": "betace",
+					"account": "acebalanceon"
+				},
+				{
+					"group": "betace",
+					"account": "acebetstoken"
+				},
+				{
+					"group": "betcity",
+					"account": "betcityadmin"
+				},
+				{
+					"group": "betcity",
+					"account": "betcityholdr"
+				},
+				{
+					"group": "betcity",
+					"account": "betcitygdice"
+				},
+				{
+					"group": "betcity",
+					"account": "betcityg1act"
+				},
+				{
+					"group": "betdog",
+					"account": "betdoggame11"
+				},
+				{
+					"group": "betdog",
+					"account": "betdogcoin11"
+				},
+				{
+					"group": "betdog",
+					"account": "betdogstaked"
+				},
+				{
+					"group": "betgo",
+					"account": "betgcontract"
+				},
+				{
+					"group": "bethash",
+					"account": "eoshashhouse"
+				},
+				{
+					"group": "bethash",
+					"account": "eoshashstake"
+				},
+				{
+					"group": "bethash",
+					"account": "eoshashpoker"
+				},
+				{
+					"group": "bethash",
+					"account": "eoshashcoins"
+				},
+				{
+					"group": "bethash",
+					"account": "eoshashlotto"
+				},
+				{
+					"group": "bethash",
+					"account": "eoshashjkpot"
+				},
+				{
+					"group": "bethash",
+					"account": "eoshashdices"
+				},
+				{
+					"group": "bethorse",
+					"account": "horse.x"
+				},
+				{
+					"group": "bethorse",
+					"account": "horsetoken.x"
+				},
+				{
+					"group": "bethorse",
+					"account": "horsestake.x"
+				},
+				{
+					"group": "betone",
+					"account": "luckydicewin"
+				},
+				{
+					"group": "betsand",
+					"account": "bsdice111111"
+				},
+				{
+					"group": "betsand",
+					"account": "eossicbo1111"
+				},
+				{
+					"group": "betsand",
+					"account": "bsroulette11"
+				},
+				{
+					"group": "betsand",
+					"account": "betsandrou11"
+				},
+				{
+					"group": "betsand",
+					"account": "betsandsic11"
+				},
+				{
+					"group": "betsand",
+					"account": "betsanddic11"
+				},
+				{
+					"group": "betsand",
+					"account": "betsandbacca"
+				},
+				{
+					"group": "betsand",
+					"account": "betsandfunds"
+				},
+				{
+					"group": "betsteam",
+					"account": "steamiodice1"
+				},
+				{
+					"group": "betsteam",
+					"account": "steamiobacca"
+				},
+				{
+					"group": "betsteam",
+					"account": "steamiobank1"
+				},
+				{
+					"group": "betsteam",
+					"account": "steamiostake"
+				},
+				{
+					"group": "betsteam",
+					"account": "steamwallet1"
+				},
+				{
+					"group": "betsteam",
+					"account": "steamiobonus"
+				},
+				{
+					"group": "betx",
+					"account": "thebetxowner"
+				},
+				{
+					"group": "betx",
+					"account": "thebetxtoken"
+				},
+				{
+					"group": "big-game",
+					"account": "eosbiggame11"
+				},
+				{
+					"group": "big-game",
+					"account": "eosbiggame22"
+				},
+				{
+					"group": "big-game",
+					"account": "eosbiggame33"
+				},
+				{
+					"group": "big-game",
+					"account": "eosbiggame44"
+				},
+				{
+					"group": "big-game",
+					"account": "bgpresale111"
+				},
+				{
+					"group": "big-game",
+					"account": "bgdividend11"
+				},
+				{
+					"group": "big-game",
+					"account": "bgdiceproxy1"
+				},
+				{
+					"group": "big-game",
+					"account": "eosbiggame55"
+				},
+				{
+					"group": "biggame",
+					"account": "eosbiggame11"
+				},
+				{
+					"group": "biggame",
+					"account": "eosbiggame22"
+				},
+				{
+					"group": "biggame",
+					"account": "eosbiggame33"
+				},
+				{
+					"group": "biggame",
+					"account": "eosbiggame44"
+				},
+				{
+					"group": "biggame",
+					"account": "bgpresale111"
+				},
+				{
+					"group": "biggame",
+					"account": "bgdividend11"
+				},
+				{
+					"group": "biggame",
+					"account": "bgdiceproxy1"
+				},
+				{
+					"group": "biggame",
+					"account": "eosbiggame55"
+				},
+				{
+					"group": "biggame",
+					"account": "bgbetwallet1"
+				},
+				{
+					"group": "biggame",
+					"account": "biggamevip11"
+				},
+				{
+					"group": "bigwinner",
+					"account": "imeoswinner1"
+				},
+				{
+					"group": "billionaire-token",
+					"account": "billionairet"
+				},
+				{
+					"group": "billionaire-token",
+					"account": "billionburnr"
+				},
+				{
+					"group": "billionaire-token",
+					"account": "billionraffl"
+				},
+				{
+					"group": "bingobet",
+					"account": "bingobetgame"
+				},
+				{
+					"group": "bingobet",
+					"account": "bingoprofits"
+				},
+				{
+					"group": "bingobet",
+					"account": "bingobetserv"
+				},
+				{
+					"group": "black-jack",
+					"account": "blackjack.e"
+				},
+				{
+					"group": "blackjack-faireos",
+					"account": "faireosadmin"
+				},
+				{
+					"group": "blackjack-faireos",
+					"account": "faireosstake"
+				},
+				{
+					"group": "blackjack-faireos",
+					"account": "faireosbanks"
+				},
+				{
+					"group": "blackjack21",
+					"account": "tttblackjack"
+				},
+				{
+					"group": "bm-dice",
+					"account": "bmeosdicerr1"
+				},
+				{
+					"group": "buyachar-com",
+					"account": "buyachareos1"
+				},
+				{
+					"group": "candy",
+					"account": "eoscandywins"
+				},
+				{
+					"group": "casego",
+					"account": "mugglecasego"
+				},
+				{
+					"group": "casinolord",
+					"account": "bancor3dcode"
+				},
+				{
+					"group": "casinolord",
+					"account": "Casinolordio"
+				},
+				{
+					"group": "catchthefrog",
+					"account": "catchthefrog"
+				},
+				{
+					"group": "chessdice",
+					"account": "eoschessdice"
+				},
+				{
+					"group": "chessdice",
+					"account": "eoachessteam"
+				},
+				{
+					"group": "chessdice",
+					"account": "chessiotoken"
+				},
+				{
+					"group": "christmasbattle",
+					"account": "fighttodeath"
+				},
+				{
+					"group": "christmasbattle",
+					"account": "xmassnowball"
+				},
+				{
+					"group": "crazydice",
+					"account": "crazydicenet"
+				},
+				{
+					"group": "crmania",
+					"account": "crmaniaslot1"
+				},
+				{
+					"group": "crmania",
+					"account": "crmaniahouse"
+				},
+				{
+					"group": "crmania",
+					"account": "crmaniadivid"
+				},
+				{
+					"group": "crypto-commemorative-coins",
+					"account": "chainbankeos"
+				},
+				{
+					"group": "crypto-treasure",
+					"account": "cryptreasure"
+				},
+				{
+					"group": "crypto-treasure",
+					"account": "farmdeposit1"
+				},
+				{
+					"group": "crypto-treasure",
+					"account": "farmwithdraw"
+				},
+				{
+					"group": "cryptocoingame",
+					"account": "cryptocoingm"
+				},
+				{
+					"group": "cryptosanguo",
+					"account": "cryptsangoku"
+				},
+				{
+					"group": "d-texas-presale",
+					"account": "bancor3dcode"
+				},
+				{
+					"group": "d-texas-presale",
+					"account": "mgtexaspoker"
+				},
+				{
+					"group": "d-texas",
+					"account": "mgtexaspoker"
+				},
+				{
+					"group": "dapp365",
+					"account": "warofstar.e"
+				},
+				{
+					"group": "dapp365",
+					"account": "baccarat.e"
+				},
+				{
+					"group": "dapp365",
+					"account": "roulette.e"
+				},
+				{
+					"group": "dapp365",
+					"account": "dappbaccarat"
+				},
+				{
+					"group": "dargongatepoker",
+					"account": "dgpokereosio"
+				},
+				{
+					"group": "dbet-games",
+					"account": "bobinghotbag"
+				},
+				{
+					"group": "dbet-games",
+					"account": "bingbingeos1"
+				},
+				{
+					"group": "dbet-games",
+					"account": "dbetonesicbo"
+				},
+				{
+					"group": "dbet-games",
+					"account": "dbetdividend"
+				},
+				{
+					"group": "dbet-games",
+					"account": "dbetminepool"
+				},
+				{
+					"group": "dbet-games",
+					"account": "dbetonedice1"
+				},
+				{
+					"group": "dbet-games",
+					"account": "dbetlovebobo"
+				},
+				{
+					"group": "dbet-games",
+					"account": "dbetsparebag"
+				},
+				{
+					"group": "deos-games",
+					"account": "thedeosgames"
+				},
+				{
+					"group": "diamonds-reaper",
+					"account": "eosdiamonds1"
+				},
+				{
+					"group": "dice-center",
+					"account": "dicecenter11"
+				},
+				{
+					"group": "dice",
+					"account": "betdiceadmin"
+				},
+				{
+					"group": "dice",
+					"account": "betdicesales"
+				},
+				{
+					"group": "dice",
+					"account": "betdicelotto"
+				},
+				{
+					"group": "dice",
+					"account": "betdicebacca"
+				},
+				{
+					"group": "dice",
+					"account": "betdicesaver"
+				},
+				{
+					"group": "dice",
+					"account": "betdiceusers"
+				},
+				{
+					"group": "dice",
+					"account": "betdicestake"
+				},
+				{
+					"group": "dice",
+					"account": "betdicegroup"
+				},
+				{
+					"group": "dice",
+					"account": "betdicesicbo"
+				},
+				{
+					"group": "dice",
+					"account": "betdicetasks"
+				},
+				{
+					"group": "dice",
+					"account": "betdicefunds"
+				},
+				{
+					"group": "dice",
+					"account": "betdicehouse"
+				},
+				{
+					"group": "dice",
+					"account": "betdicecoops"
+				},
+				{
+					"group": "dice3d",
+					"account": "guessfoxgame"
+				},
+				{
+					"group": "diceking",
+					"account": "dicekingplay"
+				},
+				{
+					"group": "dragon-gate-poker",
+					"account": "dgatepokergc"
+				},
+				{
+					"group": "dragon-option",
+					"account": "dragonoption"
+				},
+				{
+					"group": "dragon-vs-tiger",
+					"account": "youziqipaiyx"
+				},
+				{
+					"group": "dragonoption",
+					"account": "dragonoption"
+				},
+				{
+					"group": "dslots-one",
+					"account": "dslots123123"
+				},
+				{
+					"group": "dslots-one",
+					"account": "dslotsdivtok"
+				},
+				{
+					"group": "dth-decentralized-texas-hold-em",
+					"account": "dtheoschain1"
+				},
+				{
+					"group": "dungeon-hunt",
+					"account": "firedreameos"
+				},
+				{
+					"group": "early-challenge",
+					"account": "sanlijishubu"
+				},
+				{
+					"group": "endless-game",
+					"account": "endlessbank1"
+				},
+				{
+					"group": "endless-game",
+					"account": "endlessdicex"
+				},
+				{
+					"group": "endless-game",
+					"account": "endlesslogs1"
+				},
+				{
+					"group": "endless-game",
+					"account": "endlessdivdn"
+				},
+				{
+					"group": "endless-game",
+					"account": "endlesslotto"
+				},
+				{
+					"group": "endless-game",
+					"account": "lottologgerx"
+				},
+				{
+					"group": "endless-game",
+					"account": "lottooptcost"
+				},
+				{
+					"group": "endless-game",
+					"account": "endlesscrash"
+				},
+				{
+					"group": "endless-game",
+					"account": "crashloggerx"
+				},
+				{
+					"group": "enjoy",
+					"account": "betlottoinst"
+				},
+				{
+					"group": "enjoy",
+					"account": "betlotto1day"
+				},
+				{
+					"group": "eos-bet50",
+					"account": "betftymainac"
+				},
+				{
+					"group": "eos-bet50",
+					"account": "betfyplayers"
+				},
+				{
+					"group": "eos-bet50",
+					"account": "betftystakes"
+				},
+				{
+					"group": "eos-brands",
+					"account": "eosbrandgame"
+				},
+				{
+					"group": "eos-celebrity",
+					"account": "crazytown.bp"
+				},
+				{
+					"group": "eos-chance",
+					"account": "eoschance111"
+				},
+				{
+					"group": "eos-fancy-farm",
+					"account": "eosfancyfarm"
+				},
+				{
+					"group": "eos-farm",
+					"account": "eosjustaward"
+				},
+				{
+					"group": "eos-fomo-game",
+					"account": "eosfomogame1"
+				},
+				{
+					"group": "eos-happy-valley",
+					"account": "alibabapool1"
+				},
+				{
+					"group": "eos-horse-race",
+					"account": "horsemain123"
+				},
+				{
+					"group": "eos-horse",
+					"account": "shadowsguess"
+				},
+				{
+					"group": "eos-lelego",
+					"account": "llgcontract1"
+				},
+				{
+					"group": "eos-lelego",
+					"account": "llgfundpoool"
+				},
+				{
+					"group": "eos-lelego",
+					"account": "llgcontract1"
+				},
+				{
+					"group": "eos-lelego",
+					"account": "llgcontract2"
+				},
+				{
+					"group": "eos-lelego",
+					"account": "llgcontract3"
+				},
+				{
+					"group": "eos-lelego",
+					"account": "llgcontract4"
+				},
+				{
+					"group": "eos-lelego",
+					"account": "llgcontract5"
+				},
+				{
+					"group": "eos-lelego",
+					"account": "llgcontracta"
+				},
+				{
+					"group": "eos-lotto",
+					"account": "eoslotto1111"
+				},
+				{
+					"group": "eos-luckyme",
+					"account": "luckymedice1"
+				},
+				{
+					"group": "eos-luckyme",
+					"account": "luckymecowpk"
+				},
+				{
+					"group": "eos-max",
+					"account": "eosmaxioslot"
+				},
+				{
+					"group": "eos-max",
+					"account": "eosmaxiodice"
+				},
+				{
+					"group": "eos-max",
+					"account": "eosmaxioteam"
+				},
+				{
+					"group": "eos-max",
+					"account": "eosmaxiobull"
+				},
+				{
+					"group": "eos-max",
+					"account": "eosmaxiodivi"
+				},
+				{
+					"group": "eos-max",
+					"account": "eosmaxiodraw"
+				},
+				{
+					"group": "eos-max",
+					"account": "eosmaxiorank"
+				},
+				{
+					"group": "eos-max",
+					"account": "eosmaxiopool"
+				},
+				{
+					"group": "eos-max",
+					"account": "eosmaxiocost"
+				},
+				{
+					"group": "eos-pack",
+					"account": "packeostoken"
+				},
+				{
+					"group": "eos-pack",
+					"account": "packeosminer"
+				},
+				{
+					"group": "eos-pack",
+					"account": "packeosgains"
+				},
+				{
+					"group": "eos-pirates",
+					"account": "eosiopirates"
+				},
+				{
+					"group": "eos-poker",
+					"account": "eospokerwins"
+				},
+				{
+					"group": "eos-poker",
+					"account": "eospokerbank"
+				},
+				{
+					"group": "eos-roller-and-coinflip",
+					"account": "eosrolldapps"
+				},
+				{
+					"group": "eos-roulette",
+					"account": "eosroulettes"
+				},
+				{
+					"group": "eos-royale",
+					"account": "roulettespin"
+				},
+				{
+					"group": "eos-royale",
+					"account": "roulettefees"
+				},
+				{
+					"group": "eos-sangong",
+					"account": "sangongpoker"
+				},
+				{
+					"group": "eos-shadows",
+					"account": "eosioshadows"
+				},
+				{
+					"group": "eos-sicbo",
+					"account": "sicboadminvv"
+				},
+				{
+					"group": "eos-slots",
+					"account": "giytamzzguge"
+				},
+				{
+					"group": "eos-sports",
+					"account": "thechampions"
+				},
+				{
+					"group": "eos-texas-poker",
+					"account": "texaspokers1"
+				},
+				{
+					"group": "eos-time",
+					"account": "eostimecontr"
+				},
+				{
+					"group": "eos-time",
+					"account": "eostimehouse"
+				},
+				{
+					"group": "eos-time",
+					"account": "eostimefauce"
+				},
+				{
+					"group": "eos-tower-game",
+					"account": "pvpgametoken"
+				},
+				{
+					"group": "eos-tower-game",
+					"account": "eostowergame"
+				},
+				{
+					"group": "eos-win",
+					"account": "eosluckygame"
+				},
+				{
+					"group": "eos-win",
+					"account": "eosluckydice"
+				},
+				{
+					"group": "eos-win",
+					"account": "iamblackjack"
+				},
+				{
+					"group": "eos-world-map",
+					"account": "eosworldmap1"
+				},
+				{
+					"group": "eos-world",
+					"account": "playeosworld"
+				},
+				{
+					"group": "eos",
+					"account": "baccarateos1"
+				},
+				{
+					"group": "eos2win",
+					"account": "eos2wingames"
+				},
+				{
+					"group": "eos2win",
+					"account": "windividends"
+				},
+				{
+					"group": "eosabc",
+					"account": "eosabciodice"
+				},
+				{
+					"group": "eosabc",
+					"account": "eosabcescape"
+				},
+				{
+					"group": "eosabc",
+					"account": "eosabcblack1"
+				},
+				{
+					"group": "eosbank",
+					"account": "eosbanksfund"
+				},
+				{
+					"group": "eosbet",
+					"account": "eosbetdice11"
+				},
+				{
+					"group": "eosbet",
+					"account": "eosbaccarat1"
+				},
+				{
+					"group": "eosbet",
+					"account": "eosbetcrash1"
+				},
+				{
+					"group": "eosbet",
+					"account": "eosbetbank11"
+				},
+				{
+					"group": "eosbet",
+					"account": "ezeosaccount"
+				},
+				{
+					"group": "eosbet",
+					"account": "betdividends"
+				},
+				{
+					"group": "eosbet2",
+					"account": "eosiobetdice"
+				},
+				{
+					"group": "eosbling",
+					"account": "eosblingebgx"
+				},
+				{
+					"group": "eosbling",
+					"account": "eosblinggame"
+				},
+				{
+					"group": "eosbling",
+					"account": "eosblingbetx"
+				},
+				{
+					"group": "eosblue",
+					"account": "eosbluejacks"
+				},
+				{
+					"group": "eosblue",
+					"account": "lynxtoken123"
+				},
+				{
+					"group": "eosblue",
+					"account": "eosblue2user"
+				},
+				{
+					"group": "eosblue",
+					"account": "eosblue2ball"
+				},
+				{
+					"group": "eosblue",
+					"account": "eosbluetexas"
+				},
+				{
+					"group": "eosblue",
+					"account": "eosbluethree"
+				},
+				{
+					"group": "eosbluff",
+					"account": "eosbluffacct"
+				},
+				{
+					"group": "eoscrash",
+					"account": "eoscrashmain"
+				},
+				{
+					"group": "eoscrash",
+					"account": "crashdividen"
+				},
+				{
+					"group": "eoscrash",
+					"account": "eoscrashstke"
+				},
+				{
+					"group": "eosdice",
+					"account": "eosbocai2222"
+				},
+				{
+					"group": "eosdice",
+					"account": "bocai.game"
+				},
+				{
+					"group": "eoseven",
+					"account": "eosevendice1"
+				},
+				{
+					"group": "eosfaker",
+					"account": "eosfakerroll"
+				},
+				{
+					"group": "eosfaker",
+					"account": "eosfakerlott"
+				},
+				{
+					"group": "eosfaker",
+					"account": "eosfakersale"
+				},
+				{
+					"group": "eosfaker",
+					"account": "eosfakerrefs"
+				},
+				{
+					"group": "eosfaker",
+					"account": "eosfakerfomo"
+				},
+				{
+					"group": "eosfinity",
+					"account": "efinitysicbo"
+				},
+				{
+					"group": "eosfun-win",
+					"account": "eosfuneos111"
+				},
+				{
+					"group": "eosgamez-io",
+					"account": "eosgamezdice"
+				},
+				{
+					"group": "eosgamez-io",
+					"account": "eosgamezgold"
+				},
+				{
+					"group": "eosget-baccarat-sicbo",
+					"account": "eosgetdice12"
+				},
+				{
+					"group": "eosget-baccarat-sicbo",
+					"account": "eosgetbox123"
+				},
+				{
+					"group": "eosget-baccarat-sicbo",
+					"account": "eosgetadmin1"
+				},
+				{
+					"group": "eosget-baccarat-sicbo",
+					"account": "eosgetbaccar"
+				},
+				{
+					"group": "eosget-k3-sicbo",
+					"account": "eosgetdice12"
+				},
+				{
+					"group": "eosget-k3-sicbo",
+					"account": "eosgetbox123"
+				},
+				{
+					"group": "eosget-k3-sicbo",
+					"account": "eosgetadmin1"
+				},
+				{
+					"group": "eosguess",
+					"account": "eosguessking"
+				},
+				{
+					"group": "eoshash",
+					"account": "eoshashhouse"
+				},
+				{
+					"group": "eoshash",
+					"account": "eoshashstake"
+				},
+				{
+					"group": "eoshash",
+					"account": "eoshashpoker"
+				},
+				{
+					"group": "eoshash",
+					"account": "eoshashcoins"
+				},
+				{
+					"group": "eoshash",
+					"account": "eoshashlotto"
+				},
+				{
+					"group": "eoshash",
+					"account": "eoshashjkpot"
+				},
+				{
+					"group": "eosjack-blackjack",
+					"account": "eosjacklucky"
+				},
+				{
+					"group": "eosjacks",
+					"account": "eosjacksdice"
+				},
+				{
+					"group": "eosjacks",
+					"account": "eosjackssale"
+				},
+				{
+					"group": "eosjacks",
+					"account": "eosjackspool"
+				},
+				{
+					"group": "eosjacks",
+					"account": "eosjacksjpot"
+				},
+				{
+					"group": "eosjacks",
+					"account": "eosjacksjack"
+				},
+				{
+					"group": "eosjacks",
+					"account": "eosjacksgleg"
+				},
+				{
+					"group": "eosjacks",
+					"account": "eosjackgleg1"
+				},
+				{
+					"group": "eoslots",
+					"account": "eoslotsystem"
+				},
+				{
+					"group": "eoslotto",
+					"account": "accountbadla"
+				},
+				{
+					"group": "eosluck",
+					"account": "luckchainone"
+				},
+				{
+					"group": "eosluck",
+					"account": "eosluck.bank"
+				},
+				{
+					"group": "eosnow",
+					"account": "eosnowatoken"
+				},
+				{
+					"group": "eosnow",
+					"account": "eosnowbetmsg"
+				},
+				{
+					"group": "eosnow",
+					"account": "eosnowbetext"
+				},
+				{
+					"group": "eosnow",
+					"account": "eosnowbpower"
+				},
+				{
+					"group": "eospin",
+					"account": "eospindealer"
+				},
+				{
+					"group": "eosplay",
+					"account": "eosshishicai"
+				},
+				{
+					"group": "eosplay",
+					"account": "eosplaybrand"
+				},
+				{
+					"group": "eosplaystation",
+					"account": "epsdcclassic"
+				},
+				{
+					"group": "eosplaystation",
+					"account": "epsdcreceipt"
+				},
+				{
+					"group": "eosplaystation",
+					"account": "epsbank11111"
+				},
+				{
+					"group": "eospool-dice",
+					"account": "alibabapools"
+				},
+				{
+					"group": "eospool-dice",
+					"account": "eosgamepool3"
+				},
+				{
+					"group": "eosran-pvp-threecard",
+					"account": "eosrandthree"
+				},
+				{
+					"group": "eosran",
+					"account": "eosrandgames"
+				},
+				{
+					"group": "eosreel",
+					"account": "eosreeltoken"
+				},
+				{
+					"group": "eosreel",
+					"account": "eosreelhouse"
+				},
+				{
+					"group": "eosreel",
+					"account": "eosreeladmin"
+				},
+				{
+					"group": "eosreel",
+					"account": "eosreelsaver"
+				},
+				{
+					"group": "eosreel",
+					"account": "eosreelgroup"
+				},
+				{
+					"group": "eosreel",
+					"account": "eosreelstake"
+				},
+				{
+					"group": "eosroyale",
+					"account": "roulettespin"
+				},
+				{
+					"group": "eostiger",
+					"account": "eostgcgame11"
+				},
+				{
+					"group": "eostiger",
+					"account": "eostgcpopool"
+				},
+				{
+					"group": "eostiger",
+					"account": "eostgcfirst1"
+				},
+				{
+					"group": "eosvagas",
+					"account": "vagasgame111"
+				},
+				{
+					"group": "eoswar",
+					"account": "eoswaronelab"
+				},
+				{
+					"group": "eosway-enigma",
+					"account": "eoswaymaster"
+				},
+				{
+					"group": "eosway-enigma",
+					"account": "eoswayenigma"
+				},
+				{
+					"group": "eosway-enigma",
+					"account": "eoswaymotors"
+				},
+				{
+					"group": "eoswin-one",
+					"account": "tryeoswinone"
+				},
+				{
+					"group": "eoswin-one",
+					"account": "eoswinonennn"
+				},
+				{
+					"group": "eoszeal",
+					"account": "eoszealbank1"
+				},
+				{
+					"group": "es-super",
+					"account": "threecards.e"
+				},
+				{
+					"group": "es-super",
+					"account": "tokenbonus.e"
+				},
+				{
+					"group": "es-super",
+					"account": "estoken.e"
+				},
+				{
+					"group": "ewg",
+					"account": "eworldtoken1"
+				},
+				{
+					"group": "ewg",
+					"account": "eworlddvdend"
+				},
+				{
+					"group": "ewg",
+					"account": "eworldbank11"
+				},
+				{
+					"group": "ewg",
+					"account": "eworlddice11"
+				},
+				{
+					"group": "extreme-loto",
+					"account": "xlotoioeosio"
+				},
+				{
+					"group": "ez-baccarat",
+					"account": "baccarat.e"
+				},
+				{
+					"group": "fair-dice",
+					"account": "fairdicegame"
+				},
+				{
+					"group": "farmeos",
+					"account": "farmeosbank1"
+				},
+				{
+					"group": "farmeos",
+					"account": "farmeosbank2"
+				},
+				{
+					"group": "farmeos",
+					"account": "farmeosbank3"
+				},
+				{
+					"group": "farmeos",
+					"account": "farmeosdepos"
+				},
+				{
+					"group": "farmeos",
+					"account": "farmeosrcpxx"
+				},
+				{
+					"group": "farmeos",
+					"account": "farmeosrichx"
+				},
+				{
+					"group": "farmeos",
+					"account": "farmeosrich1"
+				},
+				{
+					"group": "farmeos",
+					"account": "farmeosmarkt"
+				},
+				{
+					"group": "fast",
+					"account": "fastwinadmin"
+				},
+				{
+					"group": "fast",
+					"account": "fastwinsales"
+				},
+				{
+					"group": "fast",
+					"account": "fastwindice1"
+				},
+				{
+					"group": "fast",
+					"account": "fastwindice3"
+				},
+				{
+					"group": "fast",
+					"account": "fastwincrash"
+				},
+				{
+					"group": "fast",
+					"account": "fastwinhold1"
+				},
+				{
+					"group": "fast",
+					"account": "fastwincards"
+				},
+				{
+					"group": "fast",
+					"account": "fastwinboss1"
+				},
+				{
+					"group": "fast",
+					"account": "fastwinpoker"
+				},
+				{
+					"group": "fast",
+					"account": "fastwingifts"
+				},
+				{
+					"group": "fast",
+					"account": "fastwinblack"
+				},
+				{
+					"group": "fast",
+					"account": "fastwinhold2"
+				},
+				{
+					"group": "fast",
+					"account": "fastwinrsvbt"
+				},
+				{
+					"group": "fast",
+					"account": "fastecoadmin"
+				},
+				{
+					"group": "ffgame",
+					"account": "ffgameiodice"
+				},
+				{
+					"group": "ffgame",
+					"account": "ffgamebacara"
+				},
+				{
+					"group": "ffgame",
+					"account": "ffgametokens"
+				},
+				{
+					"group": "ffgame",
+					"account": "ffgamebonus1"
+				},
+				{
+					"group": "ffgame",
+					"account": "ffgameniuniu"
+				},
+				{
+					"group": "ffgame",
+					"account": "ffgameioteam"
+				},
+				{
+					"group": "ffgame",
+					"account": "ffgamemarket"
+				},
+				{
+					"group": "ffgame",
+					"account": "ffgametongbi"
+				},
+				{
+					"group": "fishing-joy",
+					"account": "luckgamefish"
+				},
+				{
+					"group": "fishjoy",
+					"account": "fishjoyadmin"
+				},
+				{
+					"group": "fishjoy",
+					"account": "fishjoytoken"
+				},
+				{
+					"group": "fishjoy",
+					"account": "fishjoystake"
+				},
+				{
+					"group": "fishjoy",
+					"account": "fishjoykingg"
+				},
+				{
+					"group": "fishjoy",
+					"account": "fishjoycoinn"
+				},
+				{
+					"group": "flappy-bird",
+					"account": "flappybirds1"
+				},
+				{
+					"group": "funcity",
+					"account": "funcity1main"
+				},
+				{
+					"group": "gamble-eos",
+					"account": "gambeosadmin"
+				},
+				{
+					"group": "game-sky",
+					"account": "gameskytoken"
+				},
+				{
+					"group": "game-sky",
+					"account": "gameskypools"
+				},
+				{
+					"group": "game-sky",
+					"account": "gamesky2dice"
+				},
+				{
+					"group": "game-sky",
+					"account": "gameskyqiu3d"
+				},
+				{
+					"group": "game-sky",
+					"account": "gamesky2race"
+				},
+				{
+					"group": "gameboy",
+					"account": "rockscissors"
+				},
+				{
+					"group": "gemcity",
+					"account": "gemcitymines"
+				},
+				{
+					"group": "gemcity",
+					"account": "gemcitytoken"
+				},
+				{
+					"group": "ggeos",
+					"account": "goodgamedice"
+				},
+				{
+					"group": "ggs",
+					"account": "eosggsgame11"
+				},
+				{
+					"group": "ggs",
+					"account": "eosggshost11"
+				},
+				{
+					"group": "ggs",
+					"account": "eosggsgame13"
+				},
+				{
+					"group": "goalbarclub",
+					"account": "ctgbarbeting"
+				},
+				{
+					"group": "godapp-black-jack",
+					"account": "blackjack.e"
+				},
+				{
+					"group": "godapp-crazy-dice",
+					"account": "godice.e"
+				},
+				{
+					"group": "gold-coast",
+					"account": "goldcoast111"
+				},
+				{
+					"group": "good-luck",
+					"account": "eos2goodluck"
+				},
+				{
+					"group": "groweos",
+					"account": "growgamesrps"
+				},
+				{
+					"group": "guessing-club",
+					"account": "rockpapersci"
+				},
+				{
+					"group": "happy-eos-slot",
+					"account": "happyeosslot"
+				},
+				{
+					"group": "happy-poker",
+					"account": "happypokerio"
+				},
+				{
+					"group": "higold-miner",
+					"account": "higoldtokens"
+				},
+				{
+					"group": "hold-em-pokerking",
+					"account": "pokerkadmin1"
+				},
+				{
+					"group": "hongbao-one",
+					"account": "hongbaogames"
+				},
+				{
+					"group": "hongbao-one",
+					"account": "hongbaoopens"
+				},
+				{
+					"group": "hongbao-one",
+					"account": "hongbaodrop1"
+				},
+				{
+					"group": "hongbao-one",
+					"account": "hongbaominer"
+				},
+				{
+					"group": "hongbao-one",
+					"account": "hongbaoissue"
+				},
+				{
+					"group": "hongbao-one",
+					"account": "hongbaobonus"
+				},
+				{
+					"group": "hongbao-one",
+					"account": "hongbaosales"
+				},
+				{
+					"group": "honordice",
+					"account": "honordiceeos"
+				},
+				{
+					"group": "hotdice",
+					"account": "hotbetsadmin"
+				},
+				{
+					"group": "huoguo",
+					"account": "huoguogameos"
+				},
+				{
+					"group": "i-dice",
+					"account": "dicer.e"
+				},
+				{
+					"group": "iboxgame",
+					"account": "boxgameadmin"
+				},
+				{
+					"group": "iguess",
+					"account": "guessdapppub"
+				},
+				{
+					"group": "iguess",
+					"account": "guessoptions"
+				},
+				{
+					"group": "iguess",
+					"account": "admindapppub"
+				},
+				{
+					"group": "ilucky",
+					"account": "iluckyilucky"
+				},
+				{
+					"group": "isign",
+					"account": "luckycat1111"
+				},
+				{
+					"group": "ite-dice",
+					"account": "itehappydice"
+				},
+				{
+					"group": "ite-dice",
+					"account": "itesuperdice"
+				},
+				{
+					"group": "ite-dice",
+					"account": "itetptptdice"
+				},
+				{
+					"group": "jacksblue",
+					"account": "dicjacksblue"
+				},
+				{
+					"group": "jacksblue",
+					"account": "bidjacksblue"
+				},
+				{
+					"group": "jacksblue",
+					"account": "divjacksblue"
+				},
+				{
+					"group": "janken-rps",
+					"account": "jankenjanken"
+				},
+				{
+					"group": "jielong",
+					"account": "justjielong1"
+				},
+				{
+					"group": "junken-punch",
+					"account": "junkenpunch1"
+				},
+				{
+					"group": "kingofeos",
+					"account": "eoskingofeos"
+				},
+				{
+					"group": "koibet",
+					"account": "koidicegame1"
+				},
+				{
+					"group": "koibox",
+					"account": "eosboxadmin1"
+				},
+				{
+					"group": "kuai3",
+					"account": "kuai3kuai3io"
+				},
+				{
+					"group": "let-s-eos",
+					"account": "letseoscoder"
+				},
+				{
+					"group": "lottery100",
+					"account": "lotteryxx1oo"
+				},
+				{
+					"group": "lovewin-io-fair-dice",
+					"account": "lovewin12345"
+				},
+				{
+					"group": "lovewin-io-fair-dice",
+					"account": "nbnbnbnb1234"
+				},
+				{
+					"group": "luckbet",
+					"account": "luckbetadmin"
+				},
+				{
+					"group": "lucky-coin",
+					"account": "rich12345eos"
+				},
+				{
+					"group": "lucky-coin",
+					"account": "eosluckycoin"
+				},
+				{
+					"group": "lucky-eoscrown",
+					"account": "eoscrown2222"
+				},
+				{
+					"group": "lucky-number",
+					"account": "lucknumgames"
+				},
+				{
+					"group": "lucky-nuts",
+					"account": "nutsgambling"
+				},
+				{
+					"group": "lucky-nuts",
+					"account": "nutscontract"
+				},
+				{
+					"group": "lucky-plaza",
+					"account": "tkyyshayysha"
+				},
+				{
+					"group": "lucky-plaza",
+					"account": "bkyyshayysha"
+				},
+				{
+					"group": "lucky-plaza",
+					"account": "youhappyisok"
+				},
+				{
+					"group": "lucky-plaza",
+					"account": "rouletteplay"
+				},
+				{
+					"group": "lucky-plaza",
+					"account": "luckyredpack"
+				},
+				{
+					"group": "luckycat",
+					"account": "liantongct13"
+				},
+				{
+					"group": "luckygo",
+					"account": "luckygoadmin"
+				},
+				{
+					"group": "luckygo",
+					"account": "luckygodice1"
+				},
+				{
+					"group": "luckygo",
+					"account": "luckygotoken"
+				},
+				{
+					"group": "luckygo",
+					"account": "luckygobonus"
+				},
+				{
+					"group": "luckyos",
+					"account": "luckyoslucky"
+				},
+				{
+					"group": "magic-poker",
+					"account": "magicpokerio"
+				},
+				{
+					"group": "mango-dice",
+					"account": "mangodice111"
+				},
+				{
+					"group": "mango-dice",
+					"account": "mangotoken11"
+				},
+				{
+					"group": "mango-dice",
+					"account": "mangosales11"
+				},
+				{
+					"group": "mango-dice",
+					"account": "mangocasino1"
+				},
+				{
+					"group": "mango-dice",
+					"account": "mangohold111"
+				},
+				{
+					"group": "mydice",
+					"account": "itsmyeosdice"
+				},
+				{
+					"group": "mymillions-eos",
+					"account": "mymillionsio"
+				},
+				{
+					"group": "nakamoto-run",
+					"account": "Nakamotorun2"
+				},
+				{
+					"group": "okbank",
+					"account": "okbankmanage"
+				},
+				{
+					"group": "okbank",
+					"account": "okbankexpend"
+				},
+				{
+					"group": "okbet",
+					"account": "okbetdice111"
+				},
+				{
+					"group": "oneplay",
+					"account": "oneplaygames"
+				},
+				{
+					"group": "oneplay",
+					"account": "oneplaytoken"
+				},
+				{
+					"group": "pickown",
+					"account": "pickowngames"
+				},
+				{
+					"group": "piggybank",
+					"account": "piggybankbag"
+				},
+				{
+					"group": "playdappgames",
+					"account": "playdappgame"
+				},
+				{
+					"group": "playgames",
+					"account": "playgamesapp"
+				},
+				{
+					"group": "poker-eos",
+					"account": "pokereosgame"
+				},
+				{
+					"group": "poker-eos",
+					"account": "pokereosbull"
+				},
+				{
+					"group": "poker-eos",
+					"account": "pokereoshold"
+				},
+				{
+					"group": "pokerchained",
+					"account": "dcdpcontract"
+				},
+				{
+					"group": "pokereoscost",
+					"account": "pokereoscost"
+				},
+				{
+					"group": "pokereosteam",
+					"account": "pokereosteam"
+				},
+				{
+					"group": "poseidon-s-challenge",
+					"account": "poseidonplay"
+				},
+				{
+					"group": "poseidon-s-challenge",
+					"account": "poseidonbank"
+				},
+				{
+					"group": "poseidon-s-challenge",
+					"account": "poseidoncoin"
+				},
+				{
+					"group": "ppdice",
+					"account": "ppgamenumber"
+				},
+				{
+					"group": "ppdice",
+					"account": "ppgametokens"
+				},
+				{
+					"group": "ppdice",
+					"account": "ppgamebanker"
+				},
+				{
+					"group": "ppdice",
+					"account": "ppgamefruits"
+				},
+				{
+					"group": "ppdice",
+					"account": "ppgamefisher"
+				},
+				{
+					"group": "psi-gaming",
+					"account": "psidiceadmin"
+				},
+				{
+					"group": "pvp-poker-topdapp",
+					"account": "toppaigow123"
+				},
+				{
+					"group": "qp-games-five-card-stud",
+					"account": "qpgamessuoha"
+				},
+				{
+					"group": "qp-games",
+					"account": "qpgamessuoha"
+				},
+				{
+					"group": "quickwin",
+					"account": "wineosmaster"
+				},
+				{
+					"group": "real-blackjack",
+					"account": "gamblrblackj"
+				},
+				{
+					"group": "red-vs-blue",
+					"account": "warofstar.e"
+				},
+				{
+					"group": "reliablebet",
+					"account": "reliablebet1"
+				},
+				{
+					"group": "richpoker",
+					"account": "oasisbancor1"
+				},
+				{
+					"group": "rock-paper-scissors-pvp-games",
+					"account": "pvpgamesrock"
+				},
+				{
+					"group": "rock-paper-scissors",
+					"account": "rpsbyp2pgame"
+				},
+				{
+					"group": "rock-paper-scissors",
+					"account": "p2pgametoken"
+				},
+				{
+					"group": "roshambo",
+					"account": "roshambogame"
+				},
+				{
+					"group": "roulette",
+					"account": "roulette.e"
+				},
+				{
+					"group": "royal-online-vegas",
+					"account": "eosvegasjack"
+				},
+				{
+					"group": "rushdice",
+					"account": "eosrushdice1"
+				},
+				{
+					"group": "scratchers",
+					"account": "scratchers55"
+				},
+				{
+					"group": "se7ens",
+					"account": "xxxsevensxxx"
+				},
+				{
+					"group": "sexy-girl-slot",
+					"account": "mycryptoslot"
+				},
+				{
+					"group": "sexy-girl-slot",
+					"account": "mycryptoslog"
+				},
+				{
+					"group": "slots777",
+					"account": "slotmachine1"
+				},
+				{
+					"group": "solitaire-duel",
+					"account": "solitaireapp"
+				},
+				{
+					"group": "solitaire-duel",
+					"account": "solitairelog"
+				},
+				{
+					"group": "solitaire-duel",
+					"account": "solitaireprx"
+				},
+				{
+					"group": "sprtshub-bets",
+					"account": "sprtshubbets"
+				},
+				{
+					"group": "stackchips",
+					"account": "stackdicexxx"
+				},
+				{
+					"group": "stick-tiger-cock",
+					"account": "eosswintiger"
+				},
+				{
+					"group": "super-monopoly",
+					"account": "richrich2222"
+				},
+				{
+					"group": "t-games",
+					"account": "eosswindice4"
+				},
+				{
+					"group": "texas-holdem-presale",
+					"account": "bancor3dcode"
+				},
+				{
+					"group": "texas-holdem-presale",
+					"account": "mgtexaspoker"
+				},
+				{
+					"group": "texas-holdem-star",
+					"account": "bancor3dcode"
+				},
+				{
+					"group": "texas-holdem-star",
+					"account": "mgtexaspoker"
+				},
+				{
+					"group": "the-red-envelope",
+					"account": "eoswincoin11"
+				},
+				{
+					"group": "the-red-envelope",
+					"account": "eoswincoin12"
+				},
+				{
+					"group": "three-stars-slot",
+					"account": "slotcontract"
+				},
+				{
+					"group": "tobet",
+					"account": "tobetiotoken"
+				},
+				{
+					"group": "tobet",
+					"account": "tobetioadmin"
+				},
+				{
+					"group": "token-lottery",
+					"account": "tokenlottery"
+				},
+				{
+					"group": "treasure-box",
+					"account": "treasuregame"
+				},
+				{
+					"group": "trump-scam",
+					"account": "eosgamesprod"
+				},
+				{
+					"group": "trust-dice",
+					"account": "trustdicewin"
+				},
+				{
+					"group": "trust-dice",
+					"account": "txtforbounty"
+				},
+				{
+					"group": "trust-dice",
+					"account": "txtformining"
+				},
+				{
+					"group": "trust-dice",
+					"account": "trustcrashio"
+				},
+				{
+					"group": "trustbet-sicbo",
+					"account": "trustbetgame"
+				},
+				{
+					"group": "ubet-eos-lottery",
+					"account": "ubetubetubet"
+				},
+				{
+					"group": "uu-dog-racing",
+					"account": "uudogeetoken"
+				},
+				{
+					"group": "uu-dog-racing",
+					"account": "uudogeeadmin"
+				},
+				{
+					"group": "uu-dog-racing",
+					"account": "uudogeehouse"
+				},
+				{
+					"group": "uu-dog-racing",
+					"account": "uugamesrefer"
+				},
+				{
+					"group": "vsbet-pvp",
+					"account": "vsvsvsbetbet"
+				},
+				{
+					"group": "vsbet-pvp",
+					"account": "vsvsdivident"
+				},
+				{
+					"group": "vsbet-pvp",
+					"account": "vsvsvsvipvip"
+				},
+				{
+					"group": "vsbet-pvp",
+					"account": "vsvsvswallet"
+				},
+				{
+					"group": "vsbet-pvp",
+					"account": "vsvscontract"
+				},
+				{
+					"group": "wedice",
+					"account": "iwediceadmin"
+				},
+				{
+					"group": "win-town",
+					"account": "wintownworld"
+				},
+				{
+					"group": "winall-io",
+					"account": "winalliopool"
+				},
+				{
+					"group": "winall-io",
+					"account": "winalliodice"
+				},
+				{
+					"group": "winall-io",
+					"account": "winalliowarm"
+				},
+				{
+					"group": "winall-io",
+					"account": "winalliocold"
+				},
+				{
+					"group": "winplay",
+					"account": "eoswinplayio"
+				},
+				{
+					"group": "world-war-endless",
+					"account": "endlesswwlog"
+				},
+				{
+					"group": "world-war-endless",
+					"account": "endlesswarxx"
+				},
+				{
+					"group": "worldconquest",
+					"account": "conquerworld"
+				},
+				{
+					"group": "xdapp",
+					"account": "xdappactions"
+				},
+				{
+					"group": "yum-games",
+					"account": "yumscontract"
+				},
+				{
+					"group": "yum-games",
+					"account": "yumgamessale"
+				},
+				{
+					"group": "yum-games",
+					"account": "yumslottery2"
+				},
+				{
+					"group": "yum-games",
+					"account": "yumsflipcoin"
+				},
+				{
+					"group": "yum-games",
+					"account": "yumsairgrab1"
+				},
+				{
+					"group": "yum-games",
+					"account": "yumredpacket"
+				},
+				{
+					"group": "zion-games",
+					"account": "zionstake111"
+				},
+				{
+					"group": "zion-games",
+					"account": "ziongamesone"
+				}
 			],
 			"games": [
-				"warriorsgame",
-				"pixeos1avatr",
-				"bchaincuties",
-				"castlebattle",
-				"cocogame2222",
-				"cryptopixapp",
-				"pretonarts11",
-				"ctserver2111",
-				"ctserver2112",
-				"ctserver2113",
-				"ctserver2114",
-				"ctserver2115",
-				"jiamiwangzuo",
-				"throneeoseos",
-				"eosblasterzc",
-				"eosknightsio",
-				"eosplanetcom",
-				"EosSeaBattle",
-				"pvpgametoken",
-				"eostowergame",
-				"eosdotaprod1",
-				"eosjoyiocoin",
-				"eosjoyiosell",
-				"eosjoygame1a",
-				"eosjoyioplat",
-				"eosjoygame1b",
-				"eospixelhero",
-				"kittyfishing",
-				"etherdalecom",
-				"glitchgoons1",
-				"glitchgoons2",
-				"etherdalecom",
-				"glitchgoons1",
-				"glitchgoons2",
-				"grandpixgame",
-				"infiniverse1",
-				"monstereosio",
-				"Nakamotorun2",
-				"pandafunhot1",
-				"pandafunhot2",
-				"pandafunauth",
-				"pandafuncode",
-				"pixelmaster2",
-				"1pixelmaster",
-				"pixelfungame",
-				"pixeos1paint",
-				"prospectorsp",
-				"pumpdumpwars",
-				"sandhero1234",
-				"eoseoultwcvr",
-				"eospayserver",
-				"tkcointkcoin",
-				"untowermain1",
-				"eosvegasgame",
-				"wizardstoken",
-				"wizardmarket",
-				"wizboxsender",
-				"wizardfights",
-				"wizardrandom",
-				"womplaypayme",
-				"xpetiocore11",
-				"petbombcorea",
-				"xpetxauction",
-				"xpetpetstore",
-				"bancorxpetex",
-				"xpctokencore"
+				{
+					"group": "0xwarriors",
+					"account": "warriorsgame"
+				},
+				{
+					"group": "avatar-maker",
+					"account": "pixeos1avatr"
+				},
+				{
+					"group": "blockchain-cuties",
+					"account": "bchaincuties"
+				},
+				{
+					"group": "castle-battle",
+					"account": "castlebattle"
+				},
+				{
+					"group": "cocogame",
+					"account": "cocogame2222"
+				},
+				{
+					"group": "cryptopix",
+					"account": "cryptopixapp"
+				},
+				{
+					"group": "cryptothrone",
+					"account": "pretonarts11"
+				},
+				{
+					"group": "cryptothrone",
+					"account": "ctserver2111"
+				},
+				{
+					"group": "cryptothrone",
+					"account": "ctserver2112"
+				},
+				{
+					"group": "cryptothrone",
+					"account": "ctserver2113"
+				},
+				{
+					"group": "cryptothrone",
+					"account": "ctserver2114"
+				},
+				{
+					"group": "cryptothrone",
+					"account": "ctserver2115"
+				},
+				{
+					"group": "cryptothrone",
+					"account": "jiamiwangzuo"
+				},
+				{
+					"group": "cryptothrone",
+					"account": "throneeoseos"
+				},
+				{
+					"group": "eos-blasterz",
+					"account": "eosblasterzc"
+				},
+				{
+					"group": "eos-knights",
+					"account": "eosknightsio"
+				},
+				{
+					"group": "eos-planet",
+					"account": "eosplanetcom"
+				},
+				{
+					"group": "eos-sea-battle",
+					"account": "EosSeaBattle"
+				},
+				{
+					"group": "eos-tower-game",
+					"account": "pvpgametoken"
+				},
+				{
+					"group": "eos-tower-game",
+					"account": "eostowergame"
+				},
+				{
+					"group": "eosdota",
+					"account": "eosdotaprod1"
+				},
+				{
+					"group": "eosjoy",
+					"account": "eosjoyiocoin"
+				},
+				{
+					"group": "eosjoy",
+					"account": "eosjoyiosell"
+				},
+				{
+					"group": "eosjoy",
+					"account": "eosjoygame1a"
+				},
+				{
+					"group": "eosjoy",
+					"account": "eosjoyioplat"
+				},
+				{
+					"group": "eosjoy",
+					"account": "eosjoygame1b"
+				},
+				{
+					"group": "eospixelhero",
+					"account": "eospixelhero"
+				},
+				{
+					"group": "fishing-master-studio",
+					"account": "kittyfishing"
+				},
+				{
+					"group": "glitch-goons-eos",
+					"account": "etherdalecom"
+				},
+				{
+					"group": "glitch-goons-eos",
+					"account": "glitchgoons1"
+				},
+				{
+					"group": "glitch-goons-eos",
+					"account": "glitchgoons2"
+				},
+				{
+					"group": "glitch-goons",
+					"account": "etherdalecom"
+				},
+				{
+					"group": "glitch-goons",
+					"account": "glitchgoons1"
+				},
+				{
+					"group": "glitch-goons",
+					"account": "glitchgoons2"
+				},
+				{
+					"group": "grand-pixel",
+					"account": "grandpixgame"
+				},
+				{
+					"group": "infiniverse",
+					"account": "infiniverse1"
+				},
+				{
+					"group": "monstereos-io",
+					"account": "monstereosio"
+				},
+				{
+					"group": "nakamoto-run",
+					"account": "Nakamotorun2"
+				},
+				{
+					"group": "pandafun",
+					"account": "pandafunhot1"
+				},
+				{
+					"group": "pandafun",
+					"account": "pandafunhot2"
+				},
+				{
+					"group": "pandafun",
+					"account": "pandafunauth"
+				},
+				{
+					"group": "pandafun",
+					"account": "pandafuncode"
+				},
+				{
+					"group": "pixel-master-2",
+					"account": "pixelmaster2"
+				},
+				{
+					"group": "pixel-master",
+					"account": "1pixelmaster"
+				},
+				{
+					"group": "pixelfun",
+					"account": "pixelfungame"
+				},
+				{
+					"group": "pixeos-paint",
+					"account": "pixeos1paint"
+				},
+				{
+					"group": "prospectors",
+					"account": "prospectorsp"
+				},
+				{
+					"group": "pumpdumpwars",
+					"account": "pumpdumpwars"
+				},
+				{
+					"group": "sand-hero",
+					"account": "sandhero1234"
+				},
+				{
+					"group": "tapsonic-vr",
+					"account": "eoseoultwcvr"
+				},
+				{
+					"group": "three-kingdoms",
+					"account": "eospayserver"
+				},
+				{
+					"group": "token-planet",
+					"account": "tkcointkcoin"
+				},
+				{
+					"group": "unlimited-tower",
+					"account": "untowermain1"
+				},
+				{
+					"group": "vegas-town",
+					"account": "eosvegasgame"
+				},
+				{
+					"group": "wizards-one",
+					"account": "wizardstoken"
+				},
+				{
+					"group": "wizards-one",
+					"account": "wizardmarket"
+				},
+				{
+					"group": "wizards-one",
+					"account": "wizboxsender"
+				},
+				{
+					"group": "wizards-one",
+					"account": "wizardfights"
+				},
+				{
+					"group": "wizards-one",
+					"account": "wizardrandom"
+				},
+				{
+					"group": "wombat",
+					"account": "womplaypayme"
+				},
+				{
+					"group": "xpet",
+					"account": "xpetiocore11"
+				},
+				{
+					"group": "xpet",
+					"account": "petbombcorea"
+				},
+				{
+					"group": "xpet",
+					"account": "xpetxauction"
+				},
+				{
+					"group": "xpet",
+					"account": "xpetpetstore"
+				},
+				{
+					"group": "xpet",
+					"account": "bancorxpetex"
+				},
+				{
+					"group": "xpet",
+					"account": "xpctokencore"
+				}
 			],
 			"marketplaces": [],
 			"namebid": [
-				"eosnameswaps",
-				"nameswaps.x",
-				"exchangename",
-				"buyname.x",
-				"bidname.com",
-				"bid.game"
+				{
+					"group": "eos-name-swaps",
+					"account": "eosnameswaps"
+				},
+				{
+					"group": "eos-name-swaps",
+					"account": "nameswaps.x"
+				},
+				{
+					"group": "namedex",
+					"account": "exchangename"
+				},
+				{
+					"group": "short-name-register",
+					"account": "buyname.x"
+				},
+				{
+					"group": "stname",
+					"account": "bidname.com"
+				},
+				{
+					"group": "top-bidder",
+					"account": "bid.game"
+				}
 			],
 			"resources": [
-				"bankofstaked",
-				"chintailease",
-				"automatedres",
-				"eosbetcpucpu",
-				"cpuemergenc1",
-				"helpineedcpu",
-				"delegateacct",
-				"delegateacc1",
-				"meetonestake",
-				"enbank.e",
-				"enb.bank",
-				"eospowerupio",
-				"fuel.gm",
-				"bankproducts",
-				"bankcoinfund",
-				"cpubankstake",
-				"bankreserves",
-				"resource.tp"
+				{
+					"group": "bank-of-staked",
+					"account": "bankofstaked"
+				},
+				{
+					"group": "chintai",
+					"account": "chintailease"
+				},
+				{
+					"group": "chintai",
+					"account": "automatedres"
+				},
+				{
+					"group": "cpu-emergency",
+					"account": "eosbetcpucpu"
+				},
+				{
+					"group": "cpu-emergency",
+					"account": "cpuemergenc1"
+				},
+				{
+					"group": "cpu-emergency",
+					"account": "helpineedcpu"
+				},
+				{
+					"group": "cpu-emergency",
+					"account": "delegateacct"
+				},
+				{
+					"group": "cpu-emergency",
+					"account": "delegateacc1"
+				},
+				{
+					"group": "cpubaole",
+					"account": "meetonestake"
+				},
+				{
+					"group": "enbank",
+					"account": "enbank.e"
+				},
+				{
+					"group": "enbank",
+					"account": "enb.bank"
+				},
+				{
+					"group": "eospowerup",
+					"account": "eospowerupio"
+				},
+				{
+					"group": "fuel",
+					"account": "fuel.gm"
+				},
+				{
+					"group": "ibank",
+					"account": "bankproducts"
+				},
+				{
+					"group": "ibank",
+					"account": "bankcoinfund"
+				},
+				{
+					"group": "ibank",
+					"account": "cpubankstake"
+				},
+				{
+					"group": "ibank",
+					"account": "bankreserves"
+				},
+				{
+					"group": "tokenpocket",
+					"account": "resource.tp"
+				}
 			],
 			"social": [
-				"decentwitter",
-				"eoschatioapp",
-				"everipediaiq",
-				"eparticlectr",
-				"epiqtokenfee",
-				"therealkarma",
-				"thekarmadapp",
-				"lumeospollss",
-				"eoswithmixin",
-				"murmurdappco",
-				"nebulatalked",
-				"nebulaccount",
-				"nebulatokenn",
-				"nebulapredic",
-				"nebulaoracle",
-				"nebulajobbb"
+				{
+					"group": "decentwitter",
+					"account": "decentwitter"
+				},
+				{
+					"group": "eoschat",
+					"account": "eoschatioapp"
+				},
+				{
+					"group": "everipedia",
+					"account": "everipediaiq"
+				},
+				{
+					"group": "everipedia",
+					"account": "eparticlectr"
+				},
+				{
+					"group": "everipedia",
+					"account": "epiqtokenfee"
+				},
+				{
+					"group": "karma",
+					"account": "therealkarma"
+				},
+				{
+					"group": "karma",
+					"account": "thekarmadapp"
+				},
+				{
+					"group": "lumeos",
+					"account": "lumeospollss"
+				},
+				{
+					"group": "mixin",
+					"account": "eoswithmixin"
+				},
+				{
+					"group": "murmur",
+					"account": "murmurdappco"
+				},
+				{
+					"group": "nebula",
+					"account": "nebulatalked"
+				},
+				{
+					"group": "nebula",
+					"account": "nebulaccount"
+				},
+				{
+					"group": "nebula",
+					"account": "nebulatokenn"
+				},
+				{
+					"group": "nebula",
+					"account": "nebulapredic"
+				},
+				{
+					"group": "nebula",
+					"account": "nebulaoracle"
+				},
+				{
+					"group": "nebula",
+					"account": "nebulajobbb"
+				}
 			],
 			"candy": [
-				"candy.defi",
-				"candy.w",
-				"prochaintech"
+				{
+					"group": "defibox",
+					"account": "candy.defi"
+				},
+				{
+					"group": "more-candy",
+					"account": "candy.w"
+				},
+				{
+					"group": "pra-candybox",
+					"account": "prochaintech"
+				}
 			],
 			"lending": [
-				"lend.defi",
-				"danchorsmart",
-				"eosdtcntract",
-				"eosdtliqdatr",
-				"eosmicroloan",
-				"mlstakingsys",
-				"lend.pizza",
-				"vigorlending"
+				{
+					"group": "defibox",
+					"account": "lend.defi"
+				},
+				{
+					"group": "defibox",
+					"account": "danchorsmart"
+				},
+				{
+					"group": "eosdt",
+					"account": "eosdtcntract"
+				},
+				{
+					"group": "eosdt",
+					"account": "eosdtliqdatr"
+				},
+				{
+					"group": "microloan",
+					"account": "eosmicroloan"
+				},
+				{
+					"group": "microloan",
+					"account": "mlstakingsys"
+				},
+				{
+					"group": "pizza",
+					"account": "lend.pizza"
+				},
+				{
+					"group": "vigor",
+					"account": "vigorlending"
+				}
 			],
 			"nft": [
-				"atomicassets",
-				"atomicmarket",
-				"atomicdropsx",
-				"dfsnftmarket"
+				{
+					"group": "atomic",
+					"account": "atomicassets"
+				},
+				{
+					"group": "atomic",
+					"account": "atomicmarket"
+				},
+				{
+					"group": "atomic",
+					"account": "atomicdropsx"
+				},
+				{
+					"group": "dfs",
+					"account": "dfsnftmarket"
+				}
 			],
 			"other": [
-				"accountphoto",
-				"bancorxoneos",
-				"oraclesfaith",
-				"theforceprot",
-				"bookchaineos",
-				"cptblackbill",
-				"ccomtranseos",
-				"cryptomeetup",
-				"eoscafekorea",
-				"eosavatarimg",
-				"cubecontract",
-				"eosforumdapp",
-				"eosforumrcpp",
-				"eosio.forum",
-				"eosfilestore",
-				"cointreasury",
-				"egtradeadmin",
-				"myeosgroupon",
-				"greateosking",
-				"ens.xyz",
-				"eosturfio111",
-				"randomoracle",
-				"q",
-				"myeoscoin.e",
-				"beginningeos",
-				"fatwaterbank",
-				"firewall.x",
-				"guessoffinal",
-				"dragoncoinio",
-				"gravypayouts",
-				"pornhashbaby",
-				"hirevibeshvt",
-				"atcoinincjpn",
-				"itamstoreapp",
-				"itamstoreran",
-				"itamstoredex",
-				"itamstoreapp",
-				"dacincubator",
-				"lorefreecom2",
-				"magnetic1234",
-				"meechatadmin",
-				"mvchaineosio",
-				"newposincome",
-				"oneotc123451",
-				"ptitokenhome",
-				"safetransfer",
-				"sensegenesis",
-				"eosisrocking",
-				"timeforestct",
-				"timeforestcm",
-				"tipitaccount",
-				"tokendapppub",
-				"tpredpackets",
-				"vault.pizza",
-				"wishstellar1",
-				"wizznetwork1",
-				"umemorestars"
+				{
+					"group": "accountphoto",
+					"account": "accountphoto"
+				},
+				{
+					"group": "bancorx",
+					"account": "bancorxoneos"
+				},
+				{
+					"group": "believe",
+					"account": "oraclesfaith"
+				},
+				{
+					"group": "bibidai",
+					"account": "theforceprot"
+				},
+				{
+					"group": "bookchain-fun",
+					"account": "bookchaineos"
+				},
+				{
+					"group": "captain-black-bill",
+					"account": "cptblackbill"
+				},
+				{
+					"group": "ccom",
+					"account": "ccomtranseos"
+				},
+				{
+					"group": "cryptomeetup",
+					"account": "cryptomeetup"
+				},
+				{
+					"group": "dabble",
+					"account": "eoscafekorea"
+				},
+				{
+					"group": "eos-avatar-img",
+					"account": "eosavatarimg"
+				},
+				{
+					"group": "eos-cube",
+					"account": "cubecontract"
+				},
+				{
+					"group": "eos-discussions-app",
+					"account": "eosforumdapp"
+				},
+				{
+					"group": "eos-discussions-app",
+					"account": "eosforumrcpp"
+				},
+				{
+					"group": "eos-discussions-app",
+					"account": "eosio.forum"
+				},
+				{
+					"group": "eos-file-store",
+					"account": "eosfilestore"
+				},
+				{
+					"group": "eos-gift-card",
+					"account": "cointreasury"
+				},
+				{
+					"group": "eos-global",
+					"account": "egtradeadmin"
+				},
+				{
+					"group": "eos-groupon",
+					"account": "myeosgroupon"
+				},
+				{
+					"group": "eos-king",
+					"account": "greateosking"
+				},
+				{
+					"group": "eos-name-service",
+					"account": "ens.xyz"
+				},
+				{
+					"group": "eos-turf",
+					"account": "eosturfio111"
+				},
+				{
+					"group": "eosdacrandom",
+					"account": "randomoracle"
+				},
+				{
+					"group": "eospop",
+					"account": "q"
+				},
+				{
+					"group": "eospop",
+					"account": "myeoscoin.e"
+				},
+				{
+					"group": "eostart-com",
+					"account": "beginningeos"
+				},
+				{
+					"group": "fatbank",
+					"account": "fatwaterbank"
+				},
+				{
+					"group": "firewall-x",
+					"account": "firewall.x"
+				},
+				{
+					"group": "game-of-thrones-finale-guess",
+					"account": "guessoffinal"
+				},
+				{
+					"group": "game-of-thrones-finale-guess",
+					"account": "dragoncoinio"
+				},
+				{
+					"group": "gravy",
+					"account": "gravypayouts"
+				},
+				{
+					"group": "hash-baby",
+					"account": "pornhashbaby"
+				},
+				{
+					"group": "hirevibes",
+					"account": "hirevibeshvt"
+				},
+				{
+					"group": "irex",
+					"account": "atcoinincjpn"
+				},
+				{
+					"group": "itam-mobile-store",
+					"account": "itamstoreapp"
+				},
+				{
+					"group": "itam-mobile-store",
+					"account": "itamstoreran"
+				},
+				{
+					"group": "itam-mobile-store",
+					"account": "itamstoredex"
+				},
+				{
+					"group": "itam-store",
+					"account": "itamstoreapp"
+				},
+				{
+					"group": "kyubeynetwork",
+					"account": "dacincubator"
+				},
+				{
+					"group": "lore-free",
+					"account": "lorefreecom2"
+				},
+				{
+					"group": "magnetic",
+					"account": "magnetic1234"
+				},
+				{
+					"group": "meechat",
+					"account": "meechatadmin"
+				},
+				{
+					"group": "mvchain",
+					"account": "mvchaineosio"
+				},
+				{
+					"group": "newpos",
+					"account": "newposincome"
+				},
+				{
+					"group": "oneotc",
+					"account": "oneotc123451"
+				},
+				{
+					"group": "paytomat",
+					"account": "ptitokenhome"
+				},
+				{
+					"group": "safetransfer",
+					"account": "safetransfer"
+				},
+				{
+					"group": "sense-chat",
+					"account": "sensegenesis"
+				},
+				{
+					"group": "the-eos-wall",
+					"account": "eosisrocking"
+				},
+				{
+					"group": "time-forest",
+					"account": "timeforestct"
+				},
+				{
+					"group": "time-forest",
+					"account": "timeforestcm"
+				},
+				{
+					"group": "tipit",
+					"account": "tipitaccount"
+				},
+				{
+					"group": "token-pub",
+					"account": "tokendapppub"
+				},
+				{
+					"group": "tp",
+					"account": "tpredpackets"
+				},
+				{
+					"group": "vault-pizza",
+					"account": "vault.pizza"
+				},
+				{
+					"group": "wishstellar",
+					"account": "wishstellar1"
+				},
+				{
+					"group": "wizz-network-io",
+					"account": "wizznetwork1"
+				},
+				{
+					"group": "youmore",
+					"account": "umemorestars"
+				}
 			]
 		},
 		"system": {
 			"blacklist": [
-				"blacklistmee",
-				"ge2dmmrqgene",
-				"gu2timbsguge",
-				"ge4tsmzvgege",
-				"gezdonzygage",
-				"ha4tkobrgqge",
-				"gq4dkmzzhege",
-				"gu2teobyg4ge",
-				"gq4demryhage",
-				"q4dfv32fxfkx",
-				"ktl2qk5h4bor",
-				"haydqnbtgene",
-				"g44dsojygyge",
-				"guzdonzugmge",
-				"ha4doojzgyge",
-				"gu4damztgyge",
-				"haytanjtgige",
-				"exchangegdax",
-				"cmod44jlp14k",
-				"2fxfvlvkil4e",
-				"yxbdknr3hcxt",
-				"yqjltendhyjp",
-				"pm241porzybu",
-				"xkc2gnxfiswe",
-				"ic433gs42nky",
-				"fueaji11lhzg",
-				"w1ewnn4xufob",
-				"ugunxsrux2a3",
-				"gz3q24tq3r21",
-				"u5rlltjtjoeo",
-				"k5thoceysinj",
-				"ebhck31fnxbi",
-				"pvxbvdkces1x",
-				"oucjrjjvkrom",
-				"neverlandwal",
-				"tseol5n52kmo",
-				"potus1111111",
-				"craigspys211",
-				"craigspys211",
-				"eosfomoplay1",
-				"wangfuhuahua",
-				"guytqmbuhege",
-				"huobldeposit",
-				"gm3dcnqgenes",
-				"gm34qnqrepqt",
-				"gt3ftnqrrpqp",
-				"gtwvtqptrpqp",
-				"gm31qndrspqr",
-				"lxl2atucpyos",
-				"g4ytenbxgqge",
-				"jinwen121212",
-				"ha4tomztgage",
-				"my1steosobag",
-				"iloveyouplay",
-				"eoschinaeos2",
-				"eosholderkev",
-				"dreams12true",
-				"imarichman55",
-				"gizdcnjyg4ge",
-				"gyzdmmjsgige",
-				"guzdanrugene",
-				"earthsop1sys",
-				"refundwallet",
-				"jhonnywalker",
-				"alibabaioeos",
-				"whitegroupes",
-				"24cryptoshop",
-				"minedtradeos",
-				"gizdkmjvhege"
+				{
+					"group": "blacklist",
+					"account": "blacklistmee"
+				},
+				{
+					"group": "blacklist",
+					"account": "ge2dmmrqgene"
+				},
+				{
+					"group": "blacklist",
+					"account": "gu2timbsguge"
+				},
+				{
+					"group": "blacklist",
+					"account": "ge4tsmzvgege"
+				},
+				{
+					"group": "blacklist",
+					"account": "gezdonzygage"
+				},
+				{
+					"group": "blacklist",
+					"account": "ha4tkobrgqge"
+				},
+				{
+					"group": "blacklist",
+					"account": "gq4dkmzzhege"
+				},
+				{
+					"group": "blacklist",
+					"account": "gu2teobyg4ge"
+				},
+				{
+					"group": "blacklist",
+					"account": "gq4demryhage"
+				},
+				{
+					"group": "blacklist",
+					"account": "q4dfv32fxfkx"
+				},
+				{
+					"group": "blacklist",
+					"account": "ktl2qk5h4bor"
+				},
+				{
+					"group": "blacklist",
+					"account": "haydqnbtgene"
+				},
+				{
+					"group": "blacklist",
+					"account": "g44dsojygyge"
+				},
+				{
+					"group": "blacklist",
+					"account": "guzdonzugmge"
+				},
+				{
+					"group": "blacklist",
+					"account": "ha4doojzgyge"
+				},
+				{
+					"group": "blacklist",
+					"account": "gu4damztgyge"
+				},
+				{
+					"group": "blacklist",
+					"account": "haytanjtgige"
+				},
+				{
+					"group": "blacklist",
+					"account": "exchangegdax"
+				},
+				{
+					"group": "blacklist",
+					"account": "cmod44jlp14k"
+				},
+				{
+					"group": "blacklist",
+					"account": "2fxfvlvkil4e"
+				},
+				{
+					"group": "blacklist",
+					"account": "yxbdknr3hcxt"
+				},
+				{
+					"group": "blacklist",
+					"account": "yqjltendhyjp"
+				},
+				{
+					"group": "blacklist",
+					"account": "pm241porzybu"
+				},
+				{
+					"group": "blacklist",
+					"account": "xkc2gnxfiswe"
+				},
+				{
+					"group": "blacklist",
+					"account": "ic433gs42nky"
+				},
+				{
+					"group": "blacklist",
+					"account": "fueaji11lhzg"
+				},
+				{
+					"group": "blacklist",
+					"account": "w1ewnn4xufob"
+				},
+				{
+					"group": "blacklist",
+					"account": "ugunxsrux2a3"
+				},
+				{
+					"group": "blacklist",
+					"account": "gz3q24tq3r21"
+				},
+				{
+					"group": "blacklist",
+					"account": "u5rlltjtjoeo"
+				},
+				{
+					"group": "blacklist",
+					"account": "k5thoceysinj"
+				},
+				{
+					"group": "blacklist",
+					"account": "ebhck31fnxbi"
+				},
+				{
+					"group": "blacklist",
+					"account": "pvxbvdkces1x"
+				},
+				{
+					"group": "blacklist",
+					"account": "oucjrjjvkrom"
+				},
+				{
+					"group": "blacklist",
+					"account": "neverlandwal"
+				},
+				{
+					"group": "blacklist",
+					"account": "tseol5n52kmo"
+				},
+				{
+					"group": "blacklist",
+					"account": "potus1111111"
+				},
+				{
+					"group": "blacklist",
+					"account": "craigspys211"
+				},
+				{
+					"group": "blacklist",
+					"account": "craigspys211"
+				},
+				{
+					"group": "blacklist",
+					"account": "eosfomoplay1"
+				},
+				{
+					"group": "blacklist",
+					"account": "wangfuhuahua"
+				},
+				{
+					"group": "blacklist",
+					"account": "guytqmbuhege"
+				},
+				{
+					"group": "blacklist",
+					"account": "huobldeposit"
+				},
+				{
+					"group": "blacklist",
+					"account": "gm3dcnqgenes"
+				},
+				{
+					"group": "blacklist",
+					"account": "gm34qnqrepqt"
+				},
+				{
+					"group": "blacklist",
+					"account": "gt3ftnqrrpqp"
+				},
+				{
+					"group": "blacklist",
+					"account": "gtwvtqptrpqp"
+				},
+				{
+					"group": "blacklist",
+					"account": "gm31qndrspqr"
+				},
+				{
+					"group": "blacklist",
+					"account": "lxl2atucpyos"
+				},
+				{
+					"group": "blacklist",
+					"account": "g4ytenbxgqge"
+				},
+				{
+					"group": "blacklist",
+					"account": "jinwen121212"
+				},
+				{
+					"group": "blacklist",
+					"account": "ha4tomztgage"
+				},
+				{
+					"group": "blacklist",
+					"account": "my1steosobag"
+				},
+				{
+					"group": "blacklist",
+					"account": "iloveyouplay"
+				},
+				{
+					"group": "blacklist",
+					"account": "eoschinaeos2"
+				},
+				{
+					"group": "blacklist",
+					"account": "eosholderkev"
+				},
+				{
+					"group": "blacklist",
+					"account": "dreams12true"
+				},
+				{
+					"group": "blacklist",
+					"account": "imarichman55"
+				},
+				{
+					"group": "blacklist",
+					"account": "gizdcnjyg4ge"
+				},
+				{
+					"group": "blacklist",
+					"account": "gyzdmmjsgige"
+				},
+				{
+					"group": "blacklist",
+					"account": "guzdanrugene"
+				},
+				{
+					"group": "blacklist",
+					"account": "earthsop1sys"
+				},
+				{
+					"group": "blacklist",
+					"account": "refundwallet"
+				},
+				{
+					"group": "blacklist",
+					"account": "jhonnywalker"
+				},
+				{
+					"group": "blacklist",
+					"account": "alibabaioeos"
+				},
+				{
+					"group": "blacklist",
+					"account": "whitegroupes"
+				},
+				{
+					"group": "blacklist",
+					"account": "24cryptoshop"
+				},
+				{
+					"group": "blacklist",
+					"account": "minedtradeos"
+				},
+				{
+					"group": "blacklist",
+					"account": "gizdkmjvhege"
+				}
 			],
 			"ibc": [
-				"bosibc.io"
+				{
+					"group": "ibc",
+					"account": "bosibc.io"
+				}
 			],
 			"bpay": [
-				"eosio.bpay"
+				{
+					"group": "bpay",
+					"account": "eosio.bpay"
+				}
 			],
 			"vpay": [
-				"eosio.vpay"
+				{
+					"group": "vpay",
+					"account": "eosio.vpay"
+				}
 			],
 			"eosio": [
-				"eosio",
-				"eosio.msig",
-				"eosio.token",
-				"eosio.unregd",
-				"eosio.null",
-				"eosio.regram",
-				"eosio.prods",
-				"eosio.forum",
-				"eosio.rex",
-				"eosio.grants"
+				{
+					"group": "eosio",
+					"account": "eosio"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.msig"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.token"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.unregd"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.null"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.regram"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.prods"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.forum"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.rex"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.grants"
+				}
 			],
 			"genesis": [],
 			"names": [
-				"eosio.names",
-				"names"
+				{
+					"group": "names",
+					"account": "eosio.names"
+				},
+				{
+					"group": "names",
+					"account": "names"
+				}
 			],
 			"ram": [
-				"eosio.ram",
-				"eosio.ramfee"
+				{
+					"group": "ram",
+					"account": "eosio.ram"
+				},
+				{
+					"group": "ram",
+					"account": "eosio.ramfee"
+				}
 			],
 			"stake": [
-				"eosio.stake"
+				{
+					"group": "stake",
+					"account": "eosio.stake"
+				}
 			]
 		}
 	},
@@ -991,38 +3802,80 @@
 		"exchanges": {
 			"cex": [],
 			"dex": [
-				"findexfindex",
-				"newdexwallet"
+				{
+					"group": "findex",
+					"account": "findexfindex"
+				},
+				{
+					"group": "newdex",
+					"account": "newdexwallet"
+				}
 			]
 		},
 		"system": {
 			"blacklist": [],
 			"ibc": [
-				"bosibc.io"
+				{
+					"group": "ibc",
+					"account": "bosibc.io"
+				}
 			],
 			"bpay": [
-				"eosio.bpay"
+				{
+					"group": "bpay",
+					"account": "eosio.bpay"
+				}
 			],
 			"vpay": [
-				"eosio.vpay"
+				{
+					"group": "vpay",
+					"account": "eosio.vpay"
+				}
 			],
 			"eosio": [
-				"eosio",
-				"eosio.msig",
-				"eosio.token",
-				"eosio.null",
-				"eosio.prods"
+				{
+					"group": "eosio",
+					"account": "eosio"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.msig"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.token"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.null"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.prods"
+				}
 			],
 			"genesis": [],
 			"names": [
-				"eosio.names"
+				{
+					"group": "names",
+					"account": "eosio.names"
+				}
 			],
 			"ram": [
-				"eosio.ram",
-				"eosio.ramfee"
+				{
+					"group": "ram",
+					"account": "eosio.ram"
+				},
+				{
+					"group": "ram",
+					"account": "eosio.ramfee"
+				}
 			],
 			"stake": [
-				"eosio.stake"
+				{
+					"group": "stake",
+					"account": "eosio.stake"
+				}
 			]
 		}
 	},
@@ -1030,34 +3883,79 @@
 		"system": {
 			"blacklist": [],
 			"ibc": [
-				"bosibc.io"
+				{
+					"group": "ibc",
+					"account": "bosibc.io"
+				}
 			],
 			"bpay": [
-				"eosio.bpay"
+				{
+					"group": "bpay",
+					"account": "eosio.bpay"
+				}
 			],
 			"vpay": [
-				"eosio.vpay"
+				{
+					"group": "vpay",
+					"account": "eosio.vpay"
+				}
 			],
 			"eosio": [
-				"eosio",
-				"eosio.msig",
-				"eosio.token",
-				"eosio.unregd",
-				"eosio.null",
-				"eosio.regram",
-				"eosio.prods",
-				"eosio.forum"
+				{
+					"group": "eosio",
+					"account": "eosio"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.msig"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.token"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.unregd"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.null"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.regram"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.prods"
+				},
+				{
+					"group": "eosio",
+					"account": "eosio.forum"
+				}
 			],
 			"genesis": [],
 			"names": [
-				"eosio.names"
+				{
+					"group": "names",
+					"account": "eosio.names"
+				}
 			],
 			"ram": [
-				"eosio.ram",
-				"eosio.ramfee"
+				{
+					"group": "ram",
+					"account": "eosio.ram"
+				},
+				{
+					"group": "ram",
+					"account": "eosio.ramfee"
+				}
 			],
 			"stake": [
-				"eosio.stake"
+				{
+					"group": "stake",
+					"account": "eosio.stake"
+				}
 			]
 		}
 	}
