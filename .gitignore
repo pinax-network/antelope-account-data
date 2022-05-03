@@ -3,6 +3,7 @@ yarn.lock
 
 # Typescript
 *.js
+!/scripts/
 
 # Logs
 logs
