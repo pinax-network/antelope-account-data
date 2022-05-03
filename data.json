@@ -583,6 +583,30 @@
 					"account": "eos4delegate"
 				},
 				{
+					"group": "gateio",
+					"account": "g4ydgmjug4ge"
+				},
+				{
+					"group": "gateio",
+					"account": "f23ls2dl2bae"
+				},
+				{
+					"group": "gateio",
+					"account": "a1kkeksl1a13"
+				},
+				{
+					"group": "gateio",
+					"account": "oe13esldf32d"
+				},
+				{
+					"group": "gateio",
+					"account": "g3jslk3i3cca"
+				},
+				{
+					"group": "gateio",
+					"account": "z44sldml4dmd"
+				},
+				{
 					"group": "gdex",
 					"account": "gdexioforeos"
 				},
@@ -1425,14 +1449,6 @@
 				{
 					"group": "okex",
 					"account": "gy2tkojrg4ge"
-				},
-				{
-					"group": "okex",
-					"account": "g4ydgmjug4ge"
-				},
-				{
-					"group": "okex",
-					"account": "a1kkeksl1a13"
 				},
 				{
 					"group": "okex",
