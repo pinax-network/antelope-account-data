@@ -51,6 +51,78 @@
 					"account": "useosbinance"
 				},
 				{
+					"group": "binance",
+					"account": "binancestak2"
+				},
+				{
+					"group": "binance",
+					"account": "binancestak3"
+				},
+				{
+					"group": "binance",
+					"account": "binancestak4"
+				},
+				{
+					"group": "binance",
+					"account": "binancestak5"
+				},
+				{
+					"group": "binance",
+					"account": "binancestaka"
+				},
+				{
+					"group": "binance",
+					"account": "binancestakb"
+				},
+				{
+					"group": "binance",
+					"account": "binancestakc"
+				},
+				{
+					"group": "binance",
+					"account": "binancestakd"
+				},
+				{
+					"group": "binance",
+					"account": "binancestakf"
+				},
+				{
+					"group": "binance",
+					"account": "binancestakg"
+				},
+				{
+					"group": "binance",
+					"account": "binancestakh"
+				},
+				{
+					"group": "binance",
+					"account": "binancestaki"
+				},
+				{
+					"group": "binance",
+					"account": "binancestakj"
+				},
+				{
+					"group": "binance",
+					"account": "binancestakk"
+				},
+				{
+					"group": "binance",
+					"account": "binancestakl"
+				},
+				{
+					"group": "binance",
+					"account": "binancestakn"
+				},
+				{
+					"group": "binance",
+					"account": "binancestako"
+				},
+				{
+					"group": "binance",
+					"account": "binancestakp"
+				},
+				{
 					"group": "bitbay",
 					"account": "bitbayneteos"
 				},
@@ -69,6 +141,34 @@
 				{
 					"group": "bitfinex",
 					"account": "bitfinexeos1"
+				},
+				{
+					"group": "bitfinex",
+					"account": "bitfinexcw11"
+				},
+				{
+					"group": "bitfinex",
+					"account": "bitfinexcw12"
+				},
+				{
+					"group": "bitfinex",
+					"account": "bitfinexcw13"
+				},
+				{
+					"group": "bitfinex",
+					"account": "bitfinexcw14"
+				},
+				{
+					"group": "bitfinex",
+					"account": "bitfinexcw15"
+				},
+				{
+					"group": "bitfinex",
+					"account": "bitfinexcw21"
+				},
+				{
+					"group": "bitfinex",
+					"account": "bitfinexcw25"
 				},
 				{
 					"group": "bitget",
@@ -1457,6 +1557,10 @@
 				{
 					"group": "ndax",
 					"account": "ndaxexchange"
+				},
+				{
+					"group": "okcoin.com",
+					"account": "okcoincomeos"
 				},
 				{
 					"group": "okex",
