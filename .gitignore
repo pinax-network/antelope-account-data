@@ -5,6 +5,7 @@ yarn.lock
 *.js
 !/scripts/
 
+!example.js
 # Logs
 logs
 *.log

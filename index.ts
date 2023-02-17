@@ -55,7 +55,7 @@ const data: Blockchains = {
 };
 
 // System Contracts
-for (const chain of ["eos", "bos", "wax"]) {
+for (const chain of ["eos", "wax"]) {
     console.log(`processing [${chain}::system]`)
     for (const filepath of glob.sync(path.join(__dirname, "json", chain, "system", "*.json"))) {
         const dataset = load.sync<Dataset>(filepath);
@@ -86,7 +86,7 @@ for (const chain of ["eos"]) {
 }
 
 // Exchanges
-for (const chain of ["eos", "bos"]) {
+for (const chain of ["eos"]) {
     console.log(`processing [${chain}::exchanges]`)
     for (const filepath of glob.sync(path.join(__dirname, "json", chain, "exchanges", "**", "*.json"))) {
         const dataset = load.sync<Dataset>(filepath);
@@ -100,11 +100,5 @@ for (const chain of ["eos", "bos"]) {
         }
     }
 }
-
-// EOS Tokens
-// for (const filepath of glob.sync(path.join(__dirname, "json", "eos", "tokens", "**", "*.json"))) {
-//     const token = load.sync<Token>(filepath);
-//     data.eos.tokens.push(token);
-// }
 
 write.sync(path.join(__dirname, "data.json"), data);

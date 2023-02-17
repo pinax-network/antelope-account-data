@@ -1,17 +1,15 @@
 {
     "private": true,
-    "name": "eos-detective-data",
+    "name": "antelope-account-data",
     "version": "0.2.2",
-    "description": "EOS Detective Datasets",
+    "description": "Antelope Account Datasets",
     "main": "data.json",
     "types": "data.d.ts",
     "files": [
         "data.json",
         "data.d.ts"
     ],
-    "repository": "git@github.com:eosnationftw/eos-detective-data.git",
-    "author": "EOS Nation",
-    "license": "MIT",
+    "license": "CC0",
     "scripts": {
         "download": "ts-node scripts/download-dapp-radar.ts",
         "start": "ts-node index.ts"
@@ -19,7 +17,6 @@
     "devDependencies": {
         "@types/glob": "*",
         "axios": "*",
-        "eos-tokens": "git+ssh://git@github.com/EOS-Nation/eos-tokens.git",
         "glob": "*",
         "load-json-file": "*",
         "ts-node": "*",

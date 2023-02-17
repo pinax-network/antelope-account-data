@@ -5423,6 +5423,10 @@
 					"account": "ndaxexchange"
 				},
 				{
+					"group": "newton",
+					"account": "gt2iz1cpkd5h"
+				},
+				{
 					"group": "okcoin.com",
 					"account": "okcoincomeos"
 				},
@@ -9383,82 +9387,18 @@
 	"bos": {
 		"exchanges": {
 			"cex": [],
-			"dex": [
-				{
-					"group": "findex",
-					"account": "findexfindex"
-				},
-				{
-					"group": "newdex",
-					"account": "newdexwallet"
-				}
-			]
+			"dex": []
 		},
 		"system": {
 			"blacklist": [],
-			"ibc": [
-				{
-					"group": "ibc",
-					"account": "bosibc.io"
-				}
-			],
-			"bpay": [
-				{
-					"group": "bpay",
-					"account": "eosio.bpay"
-				}
-			],
-			"vpay": [
-				{
-					"group": "vpay",
-					"account": "eosio.vpay"
-				}
-			],
-			"eosio": [
-				{
-					"group": "eosio",
-					"account": "eosio"
-				},
-				{
-					"group": "eosio",
-					"account": "eosio.msig"
-				},
-				{
-					"group": "eosio",
-					"account": "eosio.token"
-				},
-				{
-					"group": "eosio",
-					"account": "eosio.null"
-				},
-				{
-					"group": "eosio",
-					"account": "eosio.prods"
-				}
-			],
+			"ibc": [],
+			"bpay": [],
+			"vpay": [],
+			"eosio": [],
 			"genesis": [],
-			"names": [
-				{
-					"group": "names",
-					"account": "eosio.names"
-				}
-			],
-			"ram": [
-				{
-					"group": "ram",
-					"account": "eosio.ram"
-				},
-				{
-					"group": "ram",
-					"account": "eosio.ramfee"
-				}
-			],
-			"stake": [
-				{
-					"group": "stake",
-					"account": "eosio.stake"
-				}
-			]
+			"names": [],
+			"ram": [],
+			"stake": []
 		}
 	},
 	"wax": {
