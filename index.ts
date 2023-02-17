@@ -14,14 +14,16 @@ function defaultExchanges(): Exchanges {
 function defaultDApps(): DApps {
     return {
         account: [],
-        collectibles: [],
+        candy: [],
         gambling: [],
         games: [],
-        marketplaces: [],
+        lending: [],
         namebid: [],
+        nft: [],
+        other: [],
         resources: [],
         social: [],
-        candy: [],
+        wallets: [],
     }
 }
 

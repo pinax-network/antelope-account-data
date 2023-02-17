@@ -5,5 +5,7 @@
 	"lppool.defi",
 	"danchorsmart",
 	"lend.defi",
-	"reserve.defi"
+	"reserve.defi",
+	"bal.defi",
+	"vault.defi"
 ]

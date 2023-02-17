@@ -5825,6 +5825,14 @@
 					"account": "reserve.defi"
 				},
 				{
+					"group": "defibox",
+					"account": "bal.defi"
+				},
+				{
+					"group": "defibox",
+					"account": "vault.defi"
+				},
+				{
 					"group": "dfs",
 					"account": "defisswapcnt"
 				},
@@ -6053,7 +6061,20 @@
 					"account": "signupeoseos"
 				}
 			],
-			"collectibles": [],
+			"candy": [
+				{
+					"group": "defibox",
+					"account": "candy.defi"
+				},
+				{
+					"group": "more-candy",
+					"account": "candy.w"
+				},
+				{
+					"group": "pra-candybox",
+					"account": "prochaintech"
+				}
+			],
 			"gambling": [
 				{
 					"group": "1bet",
@@ -8466,6 +8487,10 @@
 					"account": "prospectorsp"
 				},
 				{
+					"group": "prospectors",
+					"account": "prospectorsc"
+				},
+				{
 					"group": "pumpdumpwars",
 					"account": "pumpdumpwars"
 				},
@@ -8488,6 +8513,10 @@
 				{
 					"group": "unlimited-tower",
 					"account": "untowermain1"
+				},
+				{
+					"group": "upland",
+					"account": "playuplandme"
 				},
 				{
 					"group": "vegas-town",
@@ -8542,187 +8571,6 @@
 					"account": "xpctokencore"
 				}
 			],
-			"marketplaces": [],
-			"namebid": [
-				{
-					"group": "eos-name-swaps",
-					"account": "eosnameswaps"
-				},
-				{
-					"group": "eos-name-swaps",
-					"account": "nameswaps.x"
-				},
-				{
-					"group": "namedex",
-					"account": "exchangename"
-				},
-				{
-					"group": "short-name-register",
-					"account": "buyname.x"
-				},
-				{
-					"group": "stname",
-					"account": "bidname.com"
-				},
-				{
-					"group": "top-bidder",
-					"account": "bid.game"
-				}
-			],
-			"resources": [
-				{
-					"group": "bank-of-staked",
-					"account": "bankofstaked"
-				},
-				{
-					"group": "chintai",
-					"account": "chintailease"
-				},
-				{
-					"group": "chintai",
-					"account": "automatedres"
-				},
-				{
-					"group": "cpu-emergency",
-					"account": "eosbetcpucpu"
-				},
-				{
-					"group": "cpu-emergency",
-					"account": "cpuemergenc1"
-				},
-				{
-					"group": "cpu-emergency",
-					"account": "helpineedcpu"
-				},
-				{
-					"group": "cpu-emergency",
-					"account": "delegateacct"
-				},
-				{
-					"group": "cpu-emergency",
-					"account": "delegateacc1"
-				},
-				{
-					"group": "cpubaole",
-					"account": "meetonestake"
-				},
-				{
-					"group": "enbank",
-					"account": "enbank.e"
-				},
-				{
-					"group": "enbank",
-					"account": "enb.bank"
-				},
-				{
-					"group": "eospowerup",
-					"account": "eospowerupio"
-				},
-				{
-					"group": "fuel",
-					"account": "fuel.gm"
-				},
-				{
-					"group": "ibank",
-					"account": "bankproducts"
-				},
-				{
-					"group": "ibank",
-					"account": "bankcoinfund"
-				},
-				{
-					"group": "ibank",
-					"account": "cpubankstake"
-				},
-				{
-					"group": "ibank",
-					"account": "bankreserves"
-				},
-				{
-					"group": "tokenpocket",
-					"account": "resource.tp"
-				}
-			],
-			"social": [
-				{
-					"group": "decentwitter",
-					"account": "decentwitter"
-				},
-				{
-					"group": "eoschat",
-					"account": "eoschatioapp"
-				},
-				{
-					"group": "everipedia",
-					"account": "everipediaiq"
-				},
-				{
-					"group": "everipedia",
-					"account": "eparticlectr"
-				},
-				{
-					"group": "everipedia",
-					"account": "epiqtokenfee"
-				},
-				{
-					"group": "karma",
-					"account": "therealkarma"
-				},
-				{
-					"group": "karma",
-					"account": "thekarmadapp"
-				},
-				{
-					"group": "lumeos",
-					"account": "lumeospollss"
-				},
-				{
-					"group": "mixin",
-					"account": "eoswithmixin"
-				},
-				{
-					"group": "murmur",
-					"account": "murmurdappco"
-				},
-				{
-					"group": "nebula",
-					"account": "nebulatalked"
-				},
-				{
-					"group": "nebula",
-					"account": "nebulaccount"
-				},
-				{
-					"group": "nebula",
-					"account": "nebulatokenn"
-				},
-				{
-					"group": "nebula",
-					"account": "nebulapredic"
-				},
-				{
-					"group": "nebula",
-					"account": "nebulaoracle"
-				},
-				{
-					"group": "nebula",
-					"account": "nebulajobbb"
-				}
-			],
-			"candy": [
-				{
-					"group": "defibox",
-					"account": "candy.defi"
-				},
-				{
-					"group": "more-candy",
-					"account": "candy.w"
-				},
-				{
-					"group": "pra-candybox",
-					"account": "prochaintech"
-				}
-			],
 			"lending": [
 				{
 					"group": "defibox",
@@ -8755,6 +8603,32 @@
 				{
 					"group": "vigor",
 					"account": "vigorlending"
+				}
+			],
+			"namebid": [
+				{
+					"group": "eos-name-swaps",
+					"account": "eosnameswaps"
+				},
+				{
+					"group": "eos-name-swaps",
+					"account": "nameswaps.x"
+				},
+				{
+					"group": "namedex",
+					"account": "exchangename"
+				},
+				{
+					"group": "short-name-register",
+					"account": "buyname.x"
+				},
+				{
+					"group": "stname",
+					"account": "bidname.com"
+				},
+				{
+					"group": "top-bidder",
+					"account": "bid.game"
 				}
 			],
 			"nft": [
@@ -8999,6 +8873,152 @@
 				{
 					"group": "youmore",
 					"account": "umemorestars"
+				}
+			],
+			"resources": [
+				{
+					"group": "bank-of-staked",
+					"account": "bankofstaked"
+				},
+				{
+					"group": "chintai",
+					"account": "chintailease"
+				},
+				{
+					"group": "chintai",
+					"account": "automatedres"
+				},
+				{
+					"group": "cpu-emergency",
+					"account": "eosbetcpucpu"
+				},
+				{
+					"group": "cpu-emergency",
+					"account": "cpuemergenc1"
+				},
+				{
+					"group": "cpu-emergency",
+					"account": "helpineedcpu"
+				},
+				{
+					"group": "cpu-emergency",
+					"account": "delegateacct"
+				},
+				{
+					"group": "cpu-emergency",
+					"account": "delegateacc1"
+				},
+				{
+					"group": "cpubaole",
+					"account": "meetonestake"
+				},
+				{
+					"group": "enbank",
+					"account": "enbank.e"
+				},
+				{
+					"group": "enbank",
+					"account": "enb.bank"
+				},
+				{
+					"group": "eospowerup",
+					"account": "eospowerupio"
+				},
+				{
+					"group": "fuel",
+					"account": "fuel.gm"
+				},
+				{
+					"group": "ibank",
+					"account": "bankproducts"
+				},
+				{
+					"group": "ibank",
+					"account": "bankcoinfund"
+				},
+				{
+					"group": "ibank",
+					"account": "cpubankstake"
+				},
+				{
+					"group": "ibank",
+					"account": "bankreserves"
+				},
+				{
+					"group": "tokenpocket",
+					"account": "resource.tp"
+				}
+			],
+			"social": [
+				{
+					"group": "decentwitter",
+					"account": "decentwitter"
+				},
+				{
+					"group": "eoschat",
+					"account": "eoschatioapp"
+				},
+				{
+					"group": "everipedia",
+					"account": "everipediaiq"
+				},
+				{
+					"group": "everipedia",
+					"account": "eparticlectr"
+				},
+				{
+					"group": "everipedia",
+					"account": "epiqtokenfee"
+				},
+				{
+					"group": "karma",
+					"account": "therealkarma"
+				},
+				{
+					"group": "karma",
+					"account": "thekarmadapp"
+				},
+				{
+					"group": "lumeos",
+					"account": "lumeospollss"
+				},
+				{
+					"group": "mixin",
+					"account": "eoswithmixin"
+				},
+				{
+					"group": "murmur",
+					"account": "murmurdappco"
+				},
+				{
+					"group": "nebula",
+					"account": "nebulatalked"
+				},
+				{
+					"group": "nebula",
+					"account": "nebulaccount"
+				},
+				{
+					"group": "nebula",
+					"account": "nebulatokenn"
+				},
+				{
+					"group": "nebula",
+					"account": "nebulapredic"
+				},
+				{
+					"group": "nebula",
+					"account": "nebulaoracle"
+				},
+				{
+					"group": "nebula",
+					"account": "nebulajobbb"
+				}
+			],
+			"wallets": [
+				{
+					"group": "mykey",
+					"account": "mykeymanager"
 				}
 			]
 		},
