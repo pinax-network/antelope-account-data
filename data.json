@@ -8633,15 +8633,15 @@
 			],
 			"nft": [
 				{
-					"group": "atomic",
+					"group": "atomicassets",
 					"account": "atomicassets"
 				},
 				{
-					"group": "atomic",
+					"group": "atomichub",
 					"account": "atomicmarket"
 				},
 				{
-					"group": "atomic",
+					"group": "atomichub",
 					"account": "atomicdropsx"
 				},
 				{
