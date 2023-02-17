@@ -5909,6 +5909,14 @@
 					"account": "mindswapswap"
 				},
 				{
+					"group": "mixdao",
+					"account": "daoswapooooo"
+				},
+				{
+					"group": "mixdao",
+					"account": "pink.bank"
+				},
+				{
 					"group": "newdex",
 					"account": "newdexpocket"
 				},
@@ -5919,6 +5927,10 @@
 				{
 					"group": "newdex",
 					"account": "agg.newdex"
+				},
+				{
+					"group": "obswap",
+					"account": "swap.ob"
 				},
 				{
 					"group": "onegame",
@@ -5945,6 +5957,10 @@
 					"account": "pzaswapcntct"
 				},
 				{
+					"group": "pkdao",
+					"account": "swap.pink"
+				},
+				{
 					"group": "pto",
 					"account": "ptoswapaccts"
 				},
@@ -5955,6 +5971,10 @@
 				{
 					"group": "sx",
 					"account": "curve.sx"
+				},
+				{
+					"group": "totoro",
+					"account": "swap.ttr"
 				},
 				{
 					"group": "whaleex",
@@ -8359,6 +8379,10 @@
 					"account": "eossanguoone"
 				},
 				{
+					"group": "crypto-dynasty",
+					"account": "eossanguotkt"
+				},
+				{
 					"group": "cryptopix",
 					"account": "cryptopixapp"
 				},
@@ -8657,7 +8681,11 @@
 					"account": "mlstakingsys"
 				},
 				{
-					"group": "microloans",
+					"group": "microloan",
+					"account": "mltcontract1"
+				},
+				{
+					"group": "microloan",
 					"account": "eosmarketplc"
 				},
 				{
@@ -9029,6 +9057,14 @@
 				{
 					"group": "decentwitter",
 					"account": "decentwitter"
+				},
+				{
+					"group": "dfs-shining",
+					"account": "dfsweb3desoc"
+				},
+				{
+					"group": "dfs-shining",
+					"account": "shiningvault"
 				},
 				{
 					"group": "eoschat",
