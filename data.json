@@ -5833,6 +5833,38 @@
 					"account": "vault.defi"
 				},
 				{
+					"group": "defibox",
+					"account": "lptoken.defi"
+				},
+				{
+					"group": "defibox",
+					"account": "token.defi"
+				},
+				{
+					"group": "defibox",
+					"account": "mine4.defi"
+				},
+				{
+					"group": "defibox",
+					"account": "balmine.defi"
+				},
+				{
+					"group": "defibox",
+					"account": "usnr.defi"
+				},
+				{
+					"group": "defibox",
+					"account": "usnr2.defi"
+				},
+				{
+					"group": "defibox",
+					"account": "usnr3.defi"
+				},
+				{
+					"group": "defibox",
+					"account": "lpr2.defi"
+				},
+				{
 					"group": "dfs",
 					"account": "defisswapcnt"
 				},
@@ -5895,6 +5927,10 @@
 				{
 					"group": "pcash",
 					"account": "swap.pcash"
+				},
+				{
+					"group": "pcash",
+					"account": "token.pcash"
 				},
 				{
 					"group": "pizza",
@@ -8319,6 +8355,10 @@
 					"account": "cocogame2222"
 				},
 				{
+					"group": "crypto-dynasty",
+					"account": "eossanguoone"
+				},
+				{
 					"group": "cryptopix",
 					"account": "cryptopixapp"
 				},
@@ -8491,6 +8531,10 @@
 					"account": "prospectorsc"
 				},
 				{
+					"group": "prospectors",
+					"account": "prospectorsg"
+				},
+				{
 					"group": "pumpdumpwars",
 					"account": "pumpdumpwars"
 				},
@@ -8519,6 +8563,18 @@
 					"account": "playuplandme"
 				},
 				{
+					"group": "upland",
+					"account": "uplandnftact"
+				},
+				{
+					"group": "upland",
+					"account": "uspktokenacc"
+				},
+				{
+					"group": "upland",
+					"account": "upxtokenacct"
+				},
+				{
 					"group": "vegas-town",
 					"account": "eosvegasgame"
 				},
@@ -8545,6 +8601,10 @@
 				{
 					"group": "wombat",
 					"account": "womplaypayme"
+				},
+				{
+					"group": "wombat",
+					"account": "wombatmaster"
 				},
 				{
 					"group": "xpet",
@@ -8597,8 +8657,20 @@
 					"account": "mlstakingsys"
 				},
 				{
+					"group": "microloans",
+					"account": "eosmarketplc"
+				},
+				{
 					"group": "pizza",
 					"account": "lend.pizza"
+				},
+				{
+					"group": "pizza",
+					"account": "reward.pizza"
+				},
+				{
+					"group": "pizza",
+					"account": "pizzatotoken"
 				},
 				{
 					"group": "vigor",
@@ -8643,6 +8715,10 @@
 				{
 					"group": "atomichub",
 					"account": "atomicdropsx"
+				},
+				{
+					"group": "atomichub",
+					"account": "atomicpayerx"
 				},
 				{
 					"group": "dfs",
@@ -9019,6 +9095,88 @@
 				{
 					"group": "mykey",
 					"account": "mykeymanager"
+				}
+			],
+			"bridges": [
+				{
+					"group": "ptokens",
+					"account": "btc.ptokens"
+				},
+				{
+					"group": "ptokens",
+					"account": "eth.ptokens"
+				},
+				{
+					"group": "ptokens",
+					"account": "ltc.ptokens"
+				},
+				{
+					"group": "ptokens",
+					"account": "link.ptokens"
+				},
+				{
+					"group": "ptokens",
+					"account": "pnt.ptokens"
+				},
+				{
+					"group": "ptokens",
+					"account": "yfi.ptokens"
+				},
+				{
+					"group": "ptokens",
+					"account": "mkr.ptokens"
+				},
+				{
+					"group": "ptokens",
+					"account": "bal.ptokens"
+				},
+				{
+					"group": "ptokens",
+					"account": "comp.ptokens"
+				},
+				{
+					"group": "ptokens",
+					"account": "snx.ptokens"
+				},
+				{
+					"group": "ptokens",
+					"account": "uni.ptokens"
+				},
+				{
+					"group": "ptokens",
+					"account": "ant.ptokens"
+				},
+				{
+					"group": "ptokens",
+					"account": "bat.ptokens"
+				},
+				{
+					"group": "ptokens",
+					"account": "dai.ptokens"
+				},
+				{
+					"group": "ptokens",
+					"account": "lrc.ptokens"
+				},
+				{
+					"group": "ptokens",
+					"account": "omg.ptokens"
+				},
+				{
+					"group": "ptokens",
+					"account": "pnx.ptokens"
+				},
+				{
+					"group": "ptokens",
+					"account": "uos.ptokens"
+				},
+				{
+					"group": "ptokens",
+					"account": "zrx.ptokens"
+				},
+				{
+					"group": "ptokens",
+					"account": "pteria.ptokens"
 				}
 			]
 		},
