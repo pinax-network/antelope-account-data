@@ -1,9 +1,9 @@
 # Antelope Account Datasets
 
-## Install
+## JSON dataset
 
 ```bash
-$ npm install git+ssh://git@github.com/pinax-network/antelope-account-data.git
+$ curl "https://raw.githubusercontent.com/pinax-network/antelope-account-data/master/data.json" | jq .
 ```
 
 ## Example
